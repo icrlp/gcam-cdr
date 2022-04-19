@@ -209,6 +209,7 @@ void CachedMarket::addToDemand( const string& aGoodName, const string& aRegionNa
     }
     
     if ( mCachedMarket ) {
+        double demand = scenario->getMarketplace()->mIsDerivativeCalc ? aValue.getDiff() : aValue.get();
         mCachedMarket->addToDemand( scenario->getMarketplace()->mIsDerivativeCalc ?
                                     aValue.getDiff() : aValue.get() );
     }

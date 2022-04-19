@@ -379,6 +379,7 @@ const vector<double> Sector::calcSubsectorShares( const GDP* aGDP, const int aPe
 
     // Normalize the shares.  After normalization they will be true shares, not log(shares).
     pair<double, double> shareSum = SectorUtils::normalizeLogShares( subsecShares );
+
     if( shareSum.first == 0.0 && !outputsAllFixed( aPeriod ) ){
         // This should no longer happen, but it's still technically possible.
         ILogger& mainLog = ILogger::getLogger( "main_log" );

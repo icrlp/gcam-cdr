@@ -235,7 +235,7 @@ double CTaxInput::getPrice( const string& aRegionName,
     const Marketplace* marketplace = scenario->getMarketplace();
     double taxFraction = marketplace->getPrice( mName, aRegionName, aPeriod, true );
     double ctax = marketplace->getPrice( "CO2", aRegionName, aPeriod, false );
-    
+
     // note we need to perform some unit conversions since C prices and technology
     // costs in different units
     return taxFraction == Marketplace::NO_MARKET_PRICE || ctax == Marketplace::NO_MARKET_PRICE ?

@@ -56,6 +56,7 @@ class IInput;
 class StandardCaptureComponent;
 class NonEnergyUseCaptureComponent;
 class PowerPlantCaptureComponent;
+class CDRCaptureComponent; // GCAM-CDR
 
 /*! 
  * \ingroup Objects
@@ -177,7 +178,8 @@ protected:
          * hierarchy under introspection.
          */
         DEFINE_SUBCLASS_FAMILY( ICaptureComponent, StandardCaptureComponent,
-                                NonEnergyUseCaptureComponent, PowerPlantCaptureComponent )
+                                NonEnergyUseCaptureComponent, PowerPlantCaptureComponent,
+                                CDRCaptureComponent )
     )
 };
 

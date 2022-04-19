@@ -136,7 +136,12 @@
 #include "sectors/include/ag_supply_sector.h"
 #include "sectors/include/ag_supply_subsector.h"
 #include "sectors/include/capacity_limit_backup_calculator.h"
+#include "sectors/include/CDR_final_demand.h" // GCAM-CDR
 #include "sectors/include/CSP_backup_calculator.h"
+#include "sectors/include/demand_source.h" // GCAM-CDR
+#include "sectors/include/demand_source_accumulated.h" // GCAM-CDR
+#include "sectors/include/demand_source_elastic.h" // GCAM-CDR
+#include "sectors/include/demand_source_offset.h" // GCAM-CDR
 #include "sectors/include/energy_final_demand.h"
 #include "sectors/include/negative_emissions_final_demand.h"
 #include "sectors/include/ibackup_calculator.h"
@@ -153,6 +158,7 @@
 #include "technologies/include/base_technology.h"
 #include "technologies/include/cal_data_output.h"
 #include "technologies/include/cal_data_output_percap.h"
+#include "technologies/include/CDR_capture_component.h" // GCAM-CDR
 #include "technologies/include/default_technology.h"
 #include "technologies/include/empty_technology.h"
 #include "technologies/include/fixed_production_state.h"

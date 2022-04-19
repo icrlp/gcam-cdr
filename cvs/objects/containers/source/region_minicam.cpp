@@ -64,6 +64,7 @@
 #include "sectors/include/ag_supply_sector.h"
 #include "sectors/include/energy_final_demand.h"
 #include "sectors/include/negative_emissions_final_demand.h"
+#include "sectors/include/CDR_final_demand.h" // GCAM-CDR
 #include "sectors/include/pass_through_sector.h"
 
 #include "consumers/include/gcam_consumer.h"
@@ -176,6 +177,9 @@ bool RegionMiniCAM::XMLDerivedClassParse( const std::string& nodeName, const xer
     }
     else if( nodeName == NegativeEmissionsFinalDemand::getXMLNameStatic() ){
         parseContainerNode( curr, mFinalDemands, new NegativeEmissionsFinalDemand );
+    }
+    else if( nodeName == CDRFinalDemand::getXMLNameStatic() ){
+        parseContainerNode( curr, mFinalDemands, new CDRFinalDemand );
     }
     else if( nodeName == GCAMConsumer::getXMLNameStatic() ) {
         parseContainerNode( curr, mConsumers, new GCAMConsumer );

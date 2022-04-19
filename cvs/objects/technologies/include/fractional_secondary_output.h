@@ -198,7 +198,11 @@ protected:
         //! A fixed price to use for calibration if set.
         //! Note if we are calibrating then we assume a output-ratio of 1 and disable solving.
         DEFINE_VARIABLE( SIMPLE, "calPrice", mCalPrice, Value ),
-        
+ 
+        // GCAM-CDR
+        //! A sector whose price provides an upper limit to the value of this output.
+        DEFINE_VARIABLE( SIMPLE, "reference-good", mReferenceGood, std::string ),
+
         //! Piece-wise linear cost curve that contains price driven fraction adjustments
         //! to mOutputRatio.
         DEFINE_VARIABLE( CONTAINER, "fraction-produced", mCostCurve, Curve* ),

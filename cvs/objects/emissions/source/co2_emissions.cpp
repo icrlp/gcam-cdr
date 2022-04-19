@@ -158,6 +158,11 @@ double CO2Emissions::getGHGValue( const std::string& aRegionName,
     // Get the greenhouse gas tax from the marketplace.
     double GHGTax = mCachedMarket->getPrice( getName(), aRegionName, aPeriod, false );
 
+    // GCAM-CDR: to enable "tax avoidance," uncomment the two lines below.
+    // See sectors/source/demand_source_offsett.cpp for details.
+    //double effectivePrice = scenario->getMarketplace()->getPrice( getName() + "_effective", aRegionName, aPeriod, false );
+    //GHGTax = min( GHGTax, effectivePrice );
+
     if( GHGTax == Marketplace::NO_MARKET_PRICE ){
         GHGTax = 0;
     }

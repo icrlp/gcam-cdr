@@ -35,7 +35,7 @@
 * \file fractional_secondary_output.cpp
 * \ingroup Objects
 * \brief FractionalSecondaryOutput class source file.
-* \author Pralit Patel
+* \author Pralit Patel, David Morrow (GCAM-CDR)
 */
 #include "util/base/include/definitions.h"
 #include <string>
@@ -80,6 +80,7 @@ void FractionalSecondaryOutput::copy( const FractionalSecondaryOutput& aOther ) 
     mName = aOther.mName;
     mOutputRatio = aOther.mOutputRatio;
     mMarketName = aOther.mMarketName;
+    mReferenceGood = aOther.mReferenceGood; // GCAM-CDR
     
     delete mCostCurve;
     mCostCurve = aOther.mCostCurve ? aOther.mCostCurve->clone() : 0;
@@ -153,6 +154,9 @@ bool FractionalSecondaryOutput::XMLParse( const DOMNode* aNode )
         else if( nodeName == "market-name" ) {
             mMarketName = XMLHelper<string>::getValue( curr );
         }
+        else if ( nodeName == "reference-good" ) {
+            mReferenceGood = XMLHelper<string>::getValue( curr );
+        }
         else if ( nodeName == "fraction-produced" ){
             double price = XMLHelper<double>::getAttr( curr, "price" );
             double fraction = XMLHelper<double>::getValue( curr );
@@ -220,6 +224,21 @@ void FractionalSecondaryOutput::completeInit( const string& aSectorName,
         mainLog.setLevel( ILogger::WARNING);
         mainLog << "Minimum fraction-produced greater than zero for " << getXMLNameStatic() << " " << getName() << endl;
     }
+
+    // GCAM-CDR
+    // Why does this produce bad results? Because when the price of the 
+    // reference good falls below minX, the cost curve will report it as
+    // minX. When there's a reference good, this will lead to an exaggerated
+    // scaled price. (See getPhysicalOutput(), below.) -- DRM
+    if ( !mReferenceGood.empty() && mCostCurve->getMinX() > 0 ) {
+        ILogger& mainLog = ILogger::getLogger( "main_log" );
+        mainLog.setLevel( ILogger::WARNING );
+        mainLog << getXMLNameStatic() << " " << getName() << " has a reference good specified, "
+                << "but no fraction-produced is specified for a price of 0. "
+                << "This can produce unreliable results. "
+                << "It is recommended to add a <fraction-produced price=\"0\">0</price> tag."
+                << endl;
+    }
 }
 
 void FractionalSecondaryOutput::initCalc( const string& aRegionName,
@@ -232,7 +251,13 @@ void FractionalSecondaryOutput::initCalc( const string& aRegionName,
         IInfo* marketInfo = scenario->getMarketplace()->getMarketInfo( mName, aRegionName, aPeriod, true );
         marketInfo->setBoolean( "fully-calibrated", true );
     }
-    
+  
+    // GCAM-CDR; GCAM core just uses util::getLargeNumber as the upper bound
+    //Marketplace* marketplace = scenario->getMarketplace();
+    double upperBound = mReferenceGood.empty() ? util::getLargeNumber() :
+        scenario->getMarketplace()->getPrice( mReferenceGood, mMarketName.empty() ? aRegionName : mMarketName, aPeriod, false );
+
+
     // The fractional supply will not have any additional behavior below the minimum price
     // however there may still be some indirect behavior above the top of the curve as it affects
     // the primary good's economics.
@@ -281,14 +306,20 @@ double FractionalSecondaryOutput::getPhysicalOutput( const int aPeriod ) const {
 }
 
 double FractionalSecondaryOutput::getValue( const string& aRegionName,
-                                            const ICaptureComponent* aCaptureComponent,
-                                            const int aPeriod ) const
+    const ICaptureComponent* aCaptureComponent,
+    const int aPeriod ) const
 {
     double secondaryGoodPrice = getMarketPrice( aRegionName, aPeriod );
     // if calibrating then we assume a fractional production of 1
     // do not allow extrapolation
+
+    // GCAM-CDR allows users to scale the cost curve by reference to the price of another good.
+    double scaledPrice = mReferenceGood.empty() ? secondaryGoodPrice :
+        secondaryGoodPrice / scenario->getMarketplace()->getPrice( mReferenceGood, mMarketName.empty() ? aRegionName : mMarketName, aPeriod );
+
+
     double productionFraction = aPeriod <= scenario->getModeltime()->getFinalCalibrationPeriod() && mCalPrice.isInited() ?
-        1.0 : min( mCostCurve->getMaxY(), mCostCurve->getY( secondaryGoodPrice ) );
+        1.0 : min( mCostCurve->getMaxY(), mCostCurve->getY( scaledPrice ) );
 
     // The value of the secondary output is the market price multiplied by the
     // output ratio adjusted by the fractional production.
@@ -348,9 +379,17 @@ double FractionalSecondaryOutput::calcPhysicalOutputInternal( const string& aReg
     if( aPeriod <= scenario->getModeltime()->getFinalCalibrationPeriod() && mCalPrice.isInited() ) {
         return maxSecondaryOutput;
     }
+    
+    Marketplace* marketplace = scenario->getMarketplace();
     double secondaryGoodPrice = getMarketPrice( aRegionName, aPeriod );
+
+    // GCAM-CDR allows users to scale the cost curve by reference to the price of another good.
+    double adjPrice = mReferenceGood.empty() ? secondaryGoodPrice :
+        secondaryGoodPrice / scenario->getMarketplace()->getPrice( mReferenceGood, mMarketName.empty() ? aRegionName : mMarketName, aPeriod );
+
     // do not allow extrapolation
-    double productionFraction = min( mCostCurve->getMaxY(), mCostCurve->getY( secondaryGoodPrice ) );
+    double productionFraction = min( mCostCurve->getMaxY(), mCostCurve->getY( adjPrice ) );
+
     return maxSecondaryOutput * productionFraction;
 }
 

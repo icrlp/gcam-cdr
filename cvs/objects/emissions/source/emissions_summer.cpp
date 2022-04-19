@@ -59,7 +59,7 @@ mGHGName( aGHGName ){
 * \param aPeriod Period in which to update.
 */
 void EmissionsSummer::startVisitGHG( const AGHG* aGHG, const int aPeriod ){
-    if( aGHG->getName() == mGHGName ){
+    if ( aGHG->getXMLName() == "CO2" || aGHG->getName() == mGHGName ) { // GCAM-CDR
         mEmissionsByPeriod[ aPeriod ] += aGHG->getEmission( aPeriod );
     }
 }
@@ -104,7 +104,8 @@ void GroupedEmissionsSummer::addEmissionsSummer( EmissionsSummer* aEmissionsSumm
 void GroupedEmissionsSummer::startVisitGHG( const AGHG* aGHG, const int aPeriod ) {
     // We are currently assuming all periods should be updated.
     
-    CSummerIterator it = mEmissionsSummers.find( aGHG->getName() );
+    string aGHGName = aGHG->getXMLName() == "CO2" ? "CO2" : aGHG->getName(); // GCAM-CDR
+    CSummerIterator it = mEmissionsSummers.find( aGHGName ); // GCAM-CDR
     if( it != mEmissionsSummers.end() ) {
         for( int period = 1; period < scenario->getModeltime()->getmaxper(); ++period ) {
             if( !mCurrTech || mCurrTech->isOperating(period) ) {

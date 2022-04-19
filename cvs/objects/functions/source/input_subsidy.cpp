@@ -251,7 +251,8 @@ void InputSubsidy::setPhysicalDemand( double aPhysicalDemand,
     if( marketInfo && marketInfo->hasValue( "isShareBased" ) ){
         if( marketInfo->getBoolean( "isShareBased", true ) ){
             // Each share is additive
-            aPhysicalDemand/= marketplace->getDemand( mSectorName, aRegionName, aPeriod );
+            double sectorDemand = marketplace->getDemand( mSectorName, aRegionName, aPeriod ); //GCAM-CDR
+            aPhysicalDemand = sectorDemand == 0.0 ? 0.0 : aPhysicalDemand / sectorDemand; // GCAM-CDR
         }
     }
     // mPhysicalDemand can be a share if subsidy is share based.

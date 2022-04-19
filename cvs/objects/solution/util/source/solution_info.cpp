@@ -480,7 +480,8 @@ bool SolutionInfo::isSolved() const {
              // a demand below zero.  The next clause handles that
              // case.
              // TODO: allow this?
-             /*|| (getDemand() < 0.0 && getSupply() < util::getVerySmallNumber())*/ );
+             // GCAM-CDR: yes, allow this
+             || (getDemand() < 0.0 && getSupply() < util::getVerySmallNumber()) );
 }
 
 //! Get the demand elasticity of this market with respect to another market.

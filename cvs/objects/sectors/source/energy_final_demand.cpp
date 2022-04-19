@@ -311,13 +311,20 @@ double EnergyFinalDemand::calcFinalDemand( const string& aRegionName,
             mFinalEnergyConsumer->updateAEEI( aRegionName, aPeriod );
         }
 
-        // Note the use of previous period service demand without technical change 
-        // applied.
-        // TODO: preferable to use actual previous service with technical change for
-        // current period applied.
-        mServiceDemands[ aPeriod ] = mPreTechChangeServiceDemand[ aPeriod - 1 ] > 0 ? 
-            mPreTechChangeServiceDemand[ aPeriod - 1] * calcMacroScaler( aRegionName, aDemographics, aGDP, aPeriod) :
-            0;
+       // GCAM-CDR
+       // Allow for base service to begin after calibration.
+       // If the previous period had zero demand, but there is base service 
+       // specified for this period in the XML input, use the XML input.
+        if ( (mPreTechChangeServiceDemand[aPeriod - 1] <= 0) && (mBaseService.size() > aPeriod) ) {
+            mServiceDemands[aPeriod] = mBaseService[aPeriod];
+        }
+        else {
+            // Note the use of previous period service demand without technical change applied.
+            // TODO: preferable to use actual previous service with technical change for
+            // current period applied.
+            mServiceDemands[aPeriod] = mPreTechChangeServiceDemand[aPeriod - 1]
+                * calcMacroScaler( aRegionName, aDemographics, aGDP, aPeriod );
+        }
 
         assert( mServiceDemands[ aPeriod ] >= 0 );
         mPreTechChangeServiceDemand[ aPeriod ] = mServiceDemands[ aPeriod ];

@@ -344,13 +344,28 @@ void Technology::completeInit( const string& aRegionName,
     // Accidentally missing CO2 is very easy to do, and would cause big
     // problems. Add it automatically if it does not exist. Warn the user so
     // they remember to add it.
-    const string CO2 = "CO2";
-    if( util::searchForValue( mGHG, CO2 ) == mGHG.end() ){
+
+    // GCAM-CDR
+    // Check for any GHG with CO2 in the name.
+    // This enables users to distinguish between
+    // different kinds of CO2, such as CO2_aviation.
+    int hasCO2 = 0;
+    for ( unsigned int i = 0; i < mGHG.size(); ++i ) {
+        if ( mGHG[i]->getXMLName() == "CO2" ) {
+            hasCO2++;
+        }
+    }
+    if ( !hasCO2 ) {
         ILogger& mainLog = ILogger::getLogger( "main_log" );
         mainLog.setLevel( ILogger::DEBUG );
         mainLog << "Adding CO2 to Technology " << mName << " in region " << aRegionName << " in sector " << aSectorName << "." << endl;
         AGHG* CO2Ghg = new CO2Emissions;
         mGHG.push_back( CO2Ghg );
+    }
+    else if ( hasCO2 > 1 ) {
+        ILogger& mainLog = ILogger::getLogger( "main_log" );
+        mainLog.setLevel( ILogger::WARNING );
+        mainLog << "Technology " << mName << " has " << hasCO2 << " different kinds of CO2! This can cause double-counting of emissions." << endl;
     }
     
     // WARNING: all objects that may indirectly create a TechVintageVector *must* be created
@@ -805,7 +820,7 @@ double Technology::calcShare( const IDiscreteChoice* aChoiceFn,
     double fuelPrefElasticity = calcFuelPrefElasticity( aPeriod );
     if( fuelPrefElasticity != 0 ) {
         double scaledGdpPerCapita = aGDP->getBestScaledGDPperCap( aPeriod );
-        assert( scaledGdpPerCapita > 0.0) ;
+        assert( scaledGdpPerCapita > 0.0);
         logshare += fuelPrefElasticity * log( scaledGdpPerCapita );
     }
     assert( util::isValidNumber( logshare ) || logshare == mininf );
@@ -1324,7 +1339,7 @@ void Technology::calcCost( const string& aRegionName,
         // however, you are using the relative cost logit, costs will be
         // clamped on the low end for market share purposes (not for
         // other purposes, though).
-        
+
         double cost = getTotalInputCost( aRegionName, aSectorName, aPeriod )
             * mPMultiplier -
             calcSecondaryValue( aRegionName, aPeriod );
@@ -1376,6 +1391,7 @@ double Technology::calcFuelPrefElasticity( const int aPeriod ) const
     if( totalEnergyCoefficients > util::getSmallNumber() ){
         totalElas /= totalEnergyCoefficients;
     }
+
     return totalElas;
 }
 

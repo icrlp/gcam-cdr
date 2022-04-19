@@ -190,7 +190,7 @@
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Itanium'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|Itanium'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release - TBB|Itanium'">false</LinkIncremental>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gcam</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gcam-cdr</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|x64'">Objects-Main</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release - TBB|x64'">Objects-Main</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Itanium'">Objects-Main</TargetName>
@@ -371,7 +371,7 @@
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <OmitFramePointers>true</OmitFramePointers>
       <AdditionalIncludeDirectories>..\..\..\..\libs\xercesc\include;..\..\..\..\libs\boost-lib;..\..\..\..\libs\java\include;..\..\..\..\libs\java\include\win32;..\..;..\..\climate\source\hector\headers;..\..\..\..\libs\tbb\include;..\..\..\..\libs\Eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;BOOST_DATE_TIME_NO_LIB;FUSION_MAX_VECTOR_SIZE=30;BOOST_MATH_TR1_NO_LIB;NDEBUG;EIGEN_MPL2_ONLY;GCAM_PARALLEL_ENABLED;_WINDOWS;_AFXDLL;NOGDI;NOMINMAX;JARS_LIB#"../libs/basex/BaseX.jar\x3B../libs/jars/*";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;BOOST_DATE_TIME_NO_LIB;FUSION_MAX_VECTOR_SIZE=30;BOOST_MATH_TR1_NO_LIB;NDEBUG;EIGEN_MPL2_ONLY;GCAM_PARALLEL_ENABLED=1;_WINDOWS;_AFXDLL;NOGDI;NOMINMAX;JARS_LIB#"../libs/basex/BaseX.jar\x3B../libs/jars/*";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -628,7 +628,13 @@
     <ClCompile Include="..\..\sectors\source\ag_supply_subsector.cpp" />
     <ClCompile Include="..\..\sectors\source\backup_calculator_factory.cpp" />
     <ClCompile Include="..\..\sectors\source\capacity_limit_backup_calculator.cpp" />
+    <ClCompile Include="..\..\sectors\source\CDR_final_demand.cpp" />
     <ClCompile Include="..\..\sectors\source\CSP_backup_calculator.cpp" />
+    <ClCompile Include="..\..\sectors\source\demand_source.cpp" />
+    <ClCompile Include="..\..\sectors\source\demand_source_accumulated.cpp" />
+    <ClCompile Include="..\..\sectors\source\demand_source_elastic.cpp" />
+    <ClCompile Include="..\..\sectors\source\demand_source_factory.cpp" />
+    <ClCompile Include="..\..\sectors\source\demand_source_offset.cpp" />
     <ClCompile Include="..\..\sectors\source\energy_final_demand.cpp" />
     <ClCompile Include="..\..\sectors\source\negative_emissions_final_demand.cpp" />
     <ClCompile Include="..\..\sectors\source\nesting_subsector.cpp" />
@@ -683,6 +689,7 @@
     <ClCompile Include="..\..\technologies\source\cal_data_output.cpp" />
     <ClCompile Include="..\..\technologies\source\cal_data_output_percap.cpp" />
     <ClCompile Include="..\..\technologies\source\capture_component_factory.cpp" />
+    <ClCompile Include="..\..\technologies\source\CDR_capture_component.cpp" />
     <ClCompile Include="..\..\technologies\source\default_technology.cpp" />
     <ClCompile Include="..\..\technologies\source\empty_technology.cpp" />
     <ClCompile Include="..\..\technologies\source\expenditure.cpp" />
@@ -912,7 +919,13 @@
     <ClInclude Include="..\..\sectors\include\ag_supply_subsector.h" />
     <ClInclude Include="..\..\sectors\include\backup_calculator_factory.h" />
     <ClInclude Include="..\..\sectors\include\capacity_limit_backup_calculator.h" />
+    <ClInclude Include="..\..\sectors\include\CDR_final_demand.h" />
     <ClInclude Include="..\..\sectors\include\CSP_backup_calculator.h" />
+    <ClInclude Include="..\..\sectors\include\demand_source.h" />
+    <ClInclude Include="..\..\sectors\include\demand_source_accumulated.h" />
+    <ClInclude Include="..\..\sectors\include\demand_source_elastic.h" />
+    <ClInclude Include="..\..\sectors\include\demand_source_factory.h" />
+    <ClInclude Include="..\..\sectors\include\demand_source_offset.h" />
     <ClInclude Include="..\..\sectors\include\energy_final_demand.h" />
     <ClInclude Include="..\..\sectors\include\ibackup_calculator.h" />
     <ClInclude Include="..\..\sectors\include\negative_emissions_final_demand.h" />
@@ -1125,6 +1138,9 @@
     <ClInclude Include="..\..\land_allocator\include\unmanaged_land_leaf.h" />
     <ClInclude Include="..\..\policy\include\policy_ghg.h" />
     <ClInclude Include="..\..\policy\include\policy_portfolio_standard.h" />
+    <ClInclude Include="CDR_capture_component.h" />
+    <ClInclude Include="CDR_final_demand.h" />
+    <ClInclude Include="idemand_source.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\climate\source\hector\project_files\VS\hector-lib.vcxproj">

@@ -275,6 +275,9 @@ void SupplySector::supply( const GDP* aGDP, const int aPeriod ) {
 	double newInvestment = max( marketDemand - fixedOutput, 0.0 );
 	const vector<double>& subsecShares = calcSubsectorShares( aGDP, aPeriod );
 
+    ILogger& mainLog = ILogger::getLogger( "main_log" );
+    mainLog.setLevel( ILogger::NOTICE );
+
 	// This is where subsector and technology outputs are set
 	for( unsigned int i = 0; i < mSubsectors.size(); ++i ){
 		// set subsector output from Sector demand

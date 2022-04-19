@@ -96,6 +96,18 @@ public:
     
     virtual void copyGHGParameters( const AGHG* aPrevGHG ) = 0;
 
+    /*!
+     * \brief Get the XML node name for output to XML.
+     * \details This public function accesses the private constant string,
+     *          XML_NAME. This way the tag is always consistent for both read-in
+     *          and output and can be easily changed. This function may be
+     *          virtual to be overridden by derived class pointers.
+     * \author Jim Naslund
+     * \return The constant XML_NAME.
+     */
+     // GCAM-CDR moved this from protected to public
+    virtual const std::string& getXMLName() const = 0;
+
     // IParsable methods
     virtual bool XMLParse( const xercesc::DOMNode* aNode );
 
@@ -178,17 +190,6 @@ public:
 protected:
 
     AGHG();
-
-    /*!
-     * \brief Get the XML node name for output to XML.
-     * \details This public function accesses the private constant string,
-     *          XML_NAME. This way the tag is always consistent for both read-in
-     *          and output and can be easily changed. This function may be
-     *          virtual to be overridden by derived class pointers.
-     * \author Jim Naslund
-     * \return The constant XML_NAME.
-     */
-    virtual const std::string& getXMLName() const = 0;
     
     DEFINE_DATA(
         /* Declare all subclasses of AGHG to allow automatic traversal of the
@@ -212,6 +213,11 @@ protected:
     //! Pre-located market which has been cached from the marketplace to get the price
     //! of this ghg and add demands to the market.
     std::auto_ptr<CachedMarket> mCachedMarket;
+
+    // GCAM-CDR
+    //! Pre-located trial value market which has been cached from the marketplace to
+    //! enable prediction of emissions.
+    std::auto_ptr<CachedMarket> mCachedTrialValueMarket;
 
     /*!
      * \brief Parses any child nodes specific to derived classes

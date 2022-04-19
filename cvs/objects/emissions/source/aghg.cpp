@@ -163,6 +163,7 @@ void AGHG::completeInit( const string& aRegionName, const string& aSectorName,
  */
 void AGHG::initCalc( const string& aRegionName, const IInfo* aLocalInfo, const int aPeriod ) {
     mCachedMarket = scenario->getMarketplace()->locateMarket( getName(), aRegionName, aPeriod );
+    mCachedTrialValueMarket = scenario->getMarketplace()->locateMarket( getName() + "-offset-demand", aRegionName, aPeriod ); // GCAM-CDR
 }
 
 /*!
@@ -171,10 +172,20 @@ void AGHG::initCalc( const string& aRegionName, const IInfo* aLocalInfo, const i
  * \param aPeriod the period
  */
 void AGHG::addEmissionsToMarket( const string& aRegionName, const int aPeriod ){
-    // set emissions as demand side of gas market
-    mCachedMarket->addToDemand( getName(), aRegionName,
-                                mEmissions[ aPeriod ],
-                                aPeriod, false );
+
+
+    if ( mEmissions[aPeriod] != 0.0 ) {
+        // set emissions as demand side of gas market
+        mCachedMarket->addToDemand( getName(), aRegionName,
+            mEmissions[aPeriod],
+            aPeriod, false );
+
+        // GCAM-CDR
+        // Add emissions to demand side of offset-demand trial-value market, if it exists
+        mCachedTrialValueMarket->addToDemand( getName() + "-offset-demand",
+            aRegionName, mEmissions[aPeriod],
+            aPeriod, false );
+    }
 }
 
 /*! Second Method: Convert GHG tax and any storage costs into energy units using
@@ -197,6 +208,7 @@ double AGHG::getGHGValue( const IInput* aInput, const string& aRegionName,
 {
     // Determine if there is a tax.
     double ghgTax = mCachedMarket->getPrice( getName(), aRegionName, aPeriod, false );
+
     if( ghgTax == Marketplace::NO_MARKET_PRICE ){
         ghgTax = 0;
     }

@@ -284,6 +284,12 @@ double NonCO2Emissions::getGHGValue( const string& aRegionName,
     const double CVRT_Tg_per_EJ_to_Tonne_per_GJ = 1e-3;
     
     double GHGTax = mCachedMarket->getPrice( getName(), aRegionName, aPeriod, false );
+
+    // GCAM-CDR: to enable "tax avoidance," uncomment the two lines below.
+    // See sectors/source/demand_source_offsett.cpp for details.
+    //double effectivePrice = scenario->getMarketplace()->getPrice( getName() + "_effective", aRegionName, aPeriod, false );
+    //GHGTax = min( GHGTax, effectivePrice );
+
     if( GHGTax == Marketplace::NO_MARKET_PRICE ){
         return 0;
     }

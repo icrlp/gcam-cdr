@@ -258,6 +258,7 @@ double StandardCaptureComponent::calcSequesteredAmount( const string& aRegionNam
     if( removeFrac > 0 ){
         sequestered = removeFrac * aTotalEmissions;
         mSequesteredAmount[ aPeriod ] = sequestered;
+
         // set sequestered amount as demand side of carbon storage market
         Marketplace* marketplace = scenario->getMarketplace();
         marketplace->addToDemand( mStorageMarket, aRegionName, mSequesteredAmount[ aPeriod ], aPeriod,

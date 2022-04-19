@@ -236,9 +236,10 @@ bool Marketplace::createLinkedMarket( const string& regionName, const string& ma
     // Find the market to link to.
     const int linkedMarketNumber = mMarketLocator->getMarketNumber( regionName, linkedGoodName );
     if( linkedMarketNumber == MarketLocator::MARKET_NOT_FOUND ) {
+
         ILogger& mainLog = ILogger::getLogger( "main_log" );
         mainLog.setLevel( ILogger::WARNING );
-        mainLog << "Linked market "<< goodName << " in " << regionName << " could not be linked to " << linkedGoodName << endl;
+        mainLog << "Linked market "<< goodName << " (" << marketNumber << ") in " << regionName << " could not be linked to " << linkedGoodName << " (" << linkedMarketNumber << ")" << endl;
     }
     // We check if the default value for start year is found (-1).  If this is a new market then
     // we assume the user wanted to link for all period.  Otherwise we must assume this linked policy

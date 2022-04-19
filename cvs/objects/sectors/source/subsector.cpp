@@ -422,15 +422,32 @@ double Subsector::getAverageFuelPrice( const GDP* aGDP, const int aPeriod ) cons
 const vector<double> Subsector::calcTechShares( const GDP* aGDP, const int aPeriod ) const {
     vector<double> logTechShares ( mTechContainers.size() ); 
 
+    // TEMP 
+    // GCAM-CDR
+    bool report = ( aPeriod > 4 && mName == "biorefining" && mRegionName == "USA" );
+    ILogger& mainLog = ILogger::getLogger( "main_log" );
+    mainLog.setLevel( ILogger::NOTICE );
+    if ( report ) {
+        mainLog << "Calculating log-shares in the biorefining subsector..." << endl;
+    }
+
     for( unsigned int i = 0; i < mTechContainers.size(); ++i ){
         // determine shares based on Technology costs
         double lts = mTechContainers[ i ]->getNewVintageTechnology( aPeriod )->
             calcShare( mDiscreteChoiceModel, aGDP, aPeriod );
 
+        // TEMP
+        if ( report ) {
+            mainLog << mTechContainers[i]->getName() << " log-share: " << lts << endl;
+        }
+
         // Check that Technology shares are valid.
         assert( util::isValidNumber( lts ) || lts == -numeric_limits<double>::infinity() );
         logTechShares[ i ] = lts;
     }
+
+    if ( report ) { mainLog << endl << endl; } // TEMP
+
     // Normalize technology shares.  After normalization they will be
     // shares, not log(shares).
     SectorUtils::normalizeLogShares( logTechShares );
@@ -477,7 +494,6 @@ double Subsector::calcShare( const IDiscreteChoice* aChoiceFn, const GDP* aGDP, 
         // subsector's share to zero.
         return -numeric_limits<double>::infinity();
     }
-
     
     double scaledGdpPerCapita = aGDP->getBestScaledGDPperCap( aPeriod );
     assert( scaledGdpPerCapita > 0.0 );
