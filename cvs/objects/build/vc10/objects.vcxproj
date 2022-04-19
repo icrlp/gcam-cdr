@@ -1,0 +1,1137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Itanium">
+      <Configuration>Debug</Configuration>
+      <Platform>Itanium</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release - LAPACK|Itanium">
+      <Configuration>Release - LAPACK</Configuration>
+      <Platform>Itanium</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release - LAPACK|Win32">
+      <Configuration>Release - LAPACK</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release - LAPACK|x64">
+      <Configuration>Release - LAPACK</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release - TBB|Itanium">
+      <Configuration>Release - TBB</Configuration>
+      <Platform>Itanium</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release - TBB|Win32">
+      <Configuration>Release - TBB</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release - TBB|x64">
+      <Configuration>Release - TBB</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Itanium">
+      <Configuration>Release</Configuration>
+      <Platform>Itanium</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>objects-main</ProjectName>
+    <ProjectGuid>{C6E84727-E04B-48EC-B119-EE4A2C0DB34B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - TBB|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>Windows7.1SDK</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - TBB|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>Windows7.1SDK</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Itanium'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>Windows7.1SDK</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|Itanium'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>Windows7.1SDK</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - TBB|Itanium'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>Windows7.1SDK</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>Windows7.1SDK</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Itanium'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release - TBB|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release - TBB|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Itanium'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|Itanium'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release - TBB|Itanium'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Itanium'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../../exe/Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">../../../../exe/</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Itanium'">../../../../exe/Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../../exe/Debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">../../../../exe/Debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Itanium'">../../../../exe/Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Itanium'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../../exe/Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|Win32'">../../../../exe/Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release - TBB|Win32'">../../../../exe/Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">../../../../exe/</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|x64'">../../../../exe/</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release - TBB|x64'">../../../../exe/</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Itanium'">../../../../exe/</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|Itanium'">../../../../exe/</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release - TBB|Itanium'">../../../../exe/</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../../exe/Release\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|Win32'">../../../../exe/Release\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release - TBB|Win32'">../../../../exe/Release\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">../../../../exe/Release\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|x64'">../../../../exe/Release\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release - TBB|x64'">../../../../exe/Release\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Itanium'">../../../../exe/Release\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|Itanium'">../../../../exe/Release\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release - TBB|Itanium'">../../../../exe/Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release - TBB|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release - TBB|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Itanium'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|Itanium'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release - TBB|Itanium'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gcam</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|x64'">Objects-Main</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release - TBB|x64'">Objects-Main</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Itanium'">Objects-Main</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|Itanium'">Objects-Main</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release - TBB|Itanium'">Objects-Main</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Objects-MainD</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/WL %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>C:\PNNL\ObjECTS\Libs\xerces-c-src_2_7_0\lib;C:\PNNL\ObjECTS\Libs\dbxml2.5.16\include;..\..\..\..\..\libs\boost-lib\;..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libdb48d.lib;libdbxml25d.lib;ddao36D.lib;xerces-c_3D.lib;magiccd.lib;aglud.lib;xqilla22d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)../Objects-Main-D.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\..\..\libs\access;..\..\..\..\..\libs\dbxml2.5.16\lib;..\..\..\..\..\libs\AgLib\lib;..\..\..\..\..\libs\magicclib\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)Object-main-d.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>/WL /MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>../../../../libs/xercesc/include;../../../../libs\boost-lib;..\..\..\..\libs\java\include;..\..;..\..\climate\source\hector\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;BOOST_DATE_TIME_NO_LIB;BOOST_MATH_TR1_NO_LIB;_DEBUG;_WINDOWS;_AFXDLL;JARS_LIB#"../libs/basex/BaseX.jar\x3B../libs/jars/*";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xerces-c_3D.lib;jvm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../../../libs/xercesc/lib;..\..\..\..\libs\java\lib;..\..\..\..\libs\boost-lib\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)Object-main-d.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Itanium'">
+    <ClCompile>
+      <AdditionalOptions>/WL %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>C:\PNNL\ObjECTS\Libs\xerces-c-src_2_7_0\lib;C:\PNNL\ObjECTS\Libs\dbxml2.5.16\include;..\..\..\..\..\libs\boost-lib\;..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libdb48d.lib;libdbxml25d.lib;ddao36D.lib;xerces-c_3D.lib;magiccd.lib;aglud.lib;xqilla22d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)../Objects-Main-D.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\..\..\libs\access;..\..\..\..\..\libs\dbxml2.5.16\lib;..\..\..\..\..\libs\AgLib\lib;..\..\..\..\..\libs\magicclib\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)Object-main-d.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/WL %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\..\..\..\libs\dbxml2.5.16\include;..\..\..\..\..\libs\boost-lib\;..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_AFXDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libdb48.lib;libdbxml25.lib;ddao36.lib;xerces-c_3.lib;magicc.lib;aglu.lib;xqilla22.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)../Objects-Main.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\..\..\libs\access;..\..\..\..\..\libs\dbxml2.5.16\lib;..\..\..\..\..\libs\AgLib\lib;..\..\..\..\..\libs\magicclib\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/WL %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\..\..\..\libs\dbxml2.5.16\include;..\..\..\..\..\libs\boost-lib\;..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_AFXDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libdb48.lib;libdbxml25.lib;ddao36.lib;xerces-c_3.lib;magicc.lib;aglu.lib;xqilla22.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)../Objects-Main.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\..\..\libs\access;..\..\..\..\..\libs\dbxml2.5.16\lib;..\..\..\..\..\libs\AgLib\lib;..\..\..\..\..\libs\magicclib\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release - TBB|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/WL %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\..\..\..\libs\dbxml2.5.16\include;..\..\..\..\..\libs\boost-lib\;..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_AFXDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libdb48.lib;libdbxml25.lib;ddao36.lib;xerces-c_3.lib;magicc.lib;aglu.lib;xqilla22.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)../Objects-Main.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\..\..\libs\access;..\..\..\..\..\libs\dbxml2.5.16\lib;..\..\..\..\..\libs\AgLib\lib;..\..\..\..\..\libs\magicclib\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>/WL /MP /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\..\..\libs\xercesc\include;..\..\..\..\libs\boost-lib;..\..\..\..\libs\java\include;..\..\..\..\libs\java\include\win32;..\..;..\..\climate\source\hector\headers;..\..\..\..\libs\tbb\include;..\..\..\..\libs\Eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;BOOST_DATE_TIME_NO_LIB;FUSION_MAX_VECTOR_SIZE=30;BOOST_MATH_TR1_NO_LIB;NDEBUG;EIGEN_MPL2_ONLY;GCAM_PARALLEL_ENABLED;_WINDOWS;_AFXDLL;NOGDI;NOMINMAX;JARS_LIB#"../libs/basex/BaseX.jar\x3B../libs/jars/*";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\..\libs\xercesc\lib;..\..\..\..\libs\java\lib;..\..\..\..\libs\boost-lib\stage\lib;..\..\..\..\libs\tbb\lib\intel64\vc14;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalDependencies>xerces-c_3.lib;jvm.lib;tbb.lib;tbbmalloc.lib;tbbmalloc_proxy.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/INCLUDE:"__TBB_malloc_proxy" %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|x64'">
+    <ClCompile>
+      <AdditionalOptions>/WL /MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\..\..\libs\xercesc\include;..\..\..\..\libs\boost-lib;..\..\..\..\libs\boost-numeric-bindings;..\..\..\..\libs\java\include;..\..;..\..\climate\source\hector\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;BOOST_DATE_TIME_NO_LIB;BOOST_MATH_TR1_NO_LIB;NDEBUG;_WINDOWS;_AFXDLL;USE_LAPACK;BOOST_NUMERIC_BINDINGS_USE_CLAPACK;JARS_LIB#"../libs/basex/BaseX.jar\x3B../libs/jars/*";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\..\libs\xercesc\lib;..\..\..\..\libs\java\lib;..\..\..\..\libs\boost-lib\stage\lib;..\..\..\..\libs\CLAPACK\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalDependencies>xerces-c_3.lib;jvm.lib;lapack.lib;blas.lib;libf2c.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release - TBB|x64'">
+    <ClCompile>
+      <AdditionalOptions>/WL /MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\..\..\libs\xercesc\include;..\..\..\..\libs\boost-lib;..\..\..\..\libs\boost-numeric-bindings;..\..\..\..\libs\tbb\include;..\..\..\..\libs\java\include;..\..;..\..\climate\source\hector\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;BOOST_DATE_TIME_NO_LIB;BOOST_MATH_TR1_NO_LIB;NDEBUG;_WINDOWS;_AFXDLL;USE_LAPACK;BOOST_NUMERIC_BINDINGS_USE_CLAPACK;GCAM_PARALLEL_ENABLED;NOGDI;JARS_LIB#"../libs/basex/BaseX.jar\x3B../libs/jars/*";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\..\libs\xercesc\lib;..\..\..\..\libs\java\lib;..\..\..\..\libs\boost-lib\stage\lib;..\..\..\..\libs\CLAPACK\lib;..\..\..\..\libs\tbb\lib\intel64\vc10;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalDependencies>xerces-c_3.lib;jvm.lib;lapack.lib;blas.lib;libf2c.lib;tbb.lib;tbbmalloc.lib;tbbmalloc_proxy.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/INCLUDE:"__TBB_malloc_proxy" %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Itanium'">
+    <ClCompile>
+      <AdditionalOptions>/WL /MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\..\..\libs\dbxml\include;..\..\..\..\libs\boost-lib;..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_AFXDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\..\libs\dbxml\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalDependencies>libdb48.lib;libdbxml25.lib;xerces-c_3.lib;xqilla22.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release - LAPACK|Itanium'">
+    <ClCompile>
+      <AdditionalOptions>/WL /MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\..\..\libs\dbxml\include;..\..\..\..\libs\boost-lib;..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_AFXDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\..\libs\dbxml\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalDependencies>libdb48.lib;libdbxml25.lib;xerces-c_3.lib;xqilla22.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release - TBB|Itanium'">
+    <ClCompile>
+      <AdditionalOptions>/WL /MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\..\..\libs\dbxml\include;..\..\..\..\libs\boost-lib;..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_AFXDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\..\libs\dbxml\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalDependencies>libdb48.lib;libdbxml25.lib;xerces-c_3.lib;xqilla22.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\ccarbon_model\source\asimple_carbon_calc.cpp" />
+    <ClCompile Include="..\..\ccarbon_model\source\carbon_model_utils.cpp" />
+    <ClCompile Include="..\..\ccarbon_model\source\land_carbon_densities.cpp" />
+    <ClCompile Include="..\..\ccarbon_model\source\node_carbon_calc.cpp" />
+    <ClCompile Include="..\..\ccarbon_model\source\no_emiss_carbon_calc.cpp" />
+    <ClCompile Include="..\..\climate\source\hector_model.cpp" />
+    <ClCompile Include="..\..\climate\source\MAGICC_array.cpp" />
+    <ClCompile Include="..\..\climate\source\MAGICC_IO_helpers.cpp" />
+    <ClCompile Include="..\..\climate\source\no_climate_model.cpp" />
+    <ClCompile Include="..\..\climate\source\ObjECTS_MAGICC.cpp" />
+    <ClCompile Include="..\..\climate\source\ObjECTS_MAGICC_others.cpp" />
+    <ClCompile Include="..\..\consumers\source\gcam_consumer.cpp" />
+    <ClCompile Include="..\..\containers\source\batch_runner.cpp" />
+    <ClCompile Include="..\..\containers\source\consumer_activity.cpp" />
+    <ClCompile Include="..\..\containers\source\final_demand_activity.cpp" />
+    <ClCompile Include="..\..\containers\source\gdp.cpp" />
+    <ClCompile Include="..\..\containers\source\info.cpp" />
+    <ClCompile Include="..\..\containers\source\info_factory.cpp" />
+    <ClCompile Include="..\..\containers\source\land_allocator_activity.cpp" />
+    <ClCompile Include="..\..\containers\source\mac_generator_scenario_runner.cpp" />
+    <ClCompile Include="..\..\containers\source\market_dependency_finder.cpp" />
+    <ClCompile Include="..\..\containers\source\national_account.cpp" />
+    <ClCompile Include="..\..\containers\source\region.cpp" />
+    <ClCompile Include="..\..\containers\source\region_minicam.cpp" />
+    <ClCompile Include="..\..\containers\source\resource_activity.cpp" />
+    <ClCompile Include="..\..\containers\source\scenario.cpp" />
+    <ClCompile Include="..\..\containers\source\scenario_runner_factory.cpp" />
+    <ClCompile Include="..\..\containers\source\sector_activity.cpp" />
+    <ClCompile Include="..\..\containers\source\single_scenario_runner.cpp" />
+    <ClCompile Include="..\..\containers\source\total_policy_cost_calculator.cpp" />
+    <ClCompile Include="..\..\containers\source\world.cpp" />
+    <ClCompile Include="..\..\demographics\source\age_cohort.cpp" />
+    <ClCompile Include="..\..\demographics\source\demographic.cpp" />
+    <ClCompile Include="..\..\demographics\source\female.cpp" />
+    <ClCompile Include="..\..\demographics\source\gender.cpp" />
+    <ClCompile Include="..\..\demographics\source\male.cpp" />
+    <ClCompile Include="..\..\demographics\source\population.cpp" />
+    <ClCompile Include="..\..\demographics\source\population_mini_cam.cpp" />
+    <ClCompile Include="..\..\emissions\source\aemissions_control.cpp" />
+    <ClCompile Include="..\..\emissions\source\aghg.cpp" />
+    <ClCompile Include="..\..\emissions\source\co2_emissions.cpp" />
+    <ClCompile Include="..\..\emissions\source\emissions_control_factory.cpp" />
+    <ClCompile Include="..\..\emissions\source\emissions_driver_factory.cpp" />
+    <ClCompile Include="..\..\emissions\source\emissions_summer.cpp" />
+    <ClCompile Include="..\..\emissions\source\gdp_control.cpp" />
+    <ClCompile Include="..\..\emissions\source\ghg_factory.cpp" />
+    <ClCompile Include="..\..\emissions\source\input_driver.cpp" />
+    <ClCompile Include="..\..\emissions\source\input_output_driver.cpp" />
+    <ClCompile Include="..\..\emissions\source\linear_control.cpp" />
+    <ClCompile Include="..\..\emissions\source\luc_emissions_summer.cpp" />
+    <ClCompile Include="..\..\emissions\source\mac_control.cpp" />
+    <ClCompile Include="..\..\emissions\source\nonco2_emissions.cpp" />
+    <ClCompile Include="..\..\emissions\source\output_driver.cpp" />
+    <ClCompile Include="..\..\emissions\source\readin_control.cpp" />
+    <ClCompile Include="..\..\functions\source\absolute_cost_logit.cpp" />
+    <ClCompile Include="..\..\functions\source\building_function.cpp" />
+    <ClCompile Include="..\..\functions\source\building_node_input.cpp" />
+    <ClCompile Include="..\..\functions\source\building_service_function.cpp" />
+    <ClCompile Include="..\..\functions\source\building_service_input.cpp" />
+    <ClCompile Include="..\..\functions\source\ctax_input.cpp" />
+    <ClCompile Include="..\..\functions\source\discrete_choice_factory.cpp" />
+    <ClCompile Include="..\..\functions\source\food_demand_function.cpp" />
+    <ClCompile Include="..\..\functions\source\food_demand_input.cpp" />
+    <ClCompile Include="..\..\functions\source\relative_cost_logit.cpp" />
+    <ClCompile Include="..\..\functions\source\satiation_demand_function.cpp" />
+    <ClCompile Include="..\..\functions\source\thermal_building_service_input.cpp" />
+    <ClCompile Include="..\..\land_allocator\source\carbon_land_leaf.cpp" />
+    <ClCompile Include="..\..\land_allocator\source\land_allocator.cpp" />
+    <ClCompile Include="..\..\marketplace\source\cached_market.cpp" />
+    <ClCompile Include="..\..\marketplace\source\calibration_market.cpp" />
+    <ClCompile Include="..\..\marketplace\source\demand_market.cpp" />
+    <ClCompile Include="..\..\marketplace\source\inverse_calibration_market.cpp" />
+    <ClCompile Include="..\..\marketplace\source\linked_market.cpp" />
+    <ClCompile Include="..\..\marketplace\source\market.cpp" />
+    <ClCompile Include="..\..\marketplace\source\market_container.cpp" />
+    <ClCompile Include="..\..\marketplace\source\market_locator.cpp" />
+    <ClCompile Include="..\..\marketplace\source\market_RES.cpp" />
+    <ClCompile Include="..\..\marketplace\source\market_subsidy.cpp" />
+    <ClCompile Include="..\..\marketplace\source\market_tax.cpp" />
+    <ClCompile Include="..\..\marketplace\source\marketplace.cpp" />
+    <ClCompile Include="..\..\marketplace\source\normal_market.cpp" />
+    <ClCompile Include="..\..\marketplace\source\price_market.cpp" />
+    <ClCompile Include="..\..\marketplace\source\trial_value_market.cpp" />
+    <ClCompile Include="..\..\parallel\source\gcam_parallel.cpp" />
+    <ClCompile Include="..\..\policy\source\linked_ghg_policy.cpp" />
+    <ClCompile Include="..\..\resources\source\accumulated_grade.cpp" />
+    <ClCompile Include="..\..\resources\source\accumulated_post_grade.cpp" />
+    <ClCompile Include="..\..\resources\source\grade.cpp" />
+    <ClCompile Include="..\..\resources\source\renewable_subresource.cpp" />
+    <ClCompile Include="..\..\resources\source\reserve_subresource.cpp" />
+    <ClCompile Include="..\..\resources\source\resource.cpp" />
+    <ClCompile Include="..\..\resources\source\smooth_renewable_subresource.cpp" />
+    <ClCompile Include="..\..\resources\source\subresource.cpp" />
+    <ClCompile Include="..\..\resources\source\unlimited_resource.cpp" />
+    <ClCompile Include="..\..\sectors\source\ag_supply_sector.cpp" />
+    <ClCompile Include="..\..\sectors\source\ag_supply_subsector.cpp" />
+    <ClCompile Include="..\..\sectors\source\backup_calculator_factory.cpp" />
+    <ClCompile Include="..\..\sectors\source\capacity_limit_backup_calculator.cpp" />
+    <ClCompile Include="..\..\sectors\source\CSP_backup_calculator.cpp" />
+    <ClCompile Include="..\..\sectors\source\energy_final_demand.cpp" />
+    <ClCompile Include="..\..\sectors\source\negative_emissions_final_demand.cpp" />
+    <ClCompile Include="..\..\sectors\source\nesting_subsector.cpp" />
+    <ClCompile Include="..\..\sectors\source\pass_through_sector.cpp" />
+    <ClCompile Include="..\..\sectors\source\sector.cpp" />
+    <ClCompile Include="..\..\sectors\source\sector_utils.cpp" />
+    <ClCompile Include="..\..\sectors\source\subsector.cpp" />
+    <ClCompile Include="..\..\sectors\source\subsector_add_techcosts.cpp" />
+    <ClCompile Include="..\..\sectors\source\supply_sector.cpp" />
+    <ClCompile Include="..\..\sectors\source\tran_subsector.cpp" />
+    <ClCompile Include="..\..\sectors\source\wind_backup_calculator.cpp" />
+    <ClCompile Include="..\..\solution\solvers\source\bisect_all.cpp" />
+    <ClCompile Include="..\..\solution\solvers\source\bisect_one.cpp" />
+    <ClCompile Include="..\..\solution\solvers\source\bisect_policy.cpp" />
+    <ClCompile Include="..\..\solution\solvers\source\bisect_policy_nr_solver.cpp" />
+    <ClCompile Include="..\..\solution\solvers\source\bisection_nr_solver.cpp" />
+    <ClCompile Include="..\..\solution\solvers\source\logbroyden.cpp" />
+    <ClCompile Include="..\..\solution\solvers\source\log_newton_raphson.cpp" />
+    <ClCompile Include="..\..\solution\solvers\source\log_newton_raphson_sd.cpp" />
+    <ClCompile Include="..\..\solution\solvers\source\preconditioner.cpp" />
+    <ClCompile Include="..\..\solution\solvers\source\solver_component.cpp" />
+    <ClCompile Include="..\..\solution\solvers\source\solver_component_factory.cpp" />
+    <ClCompile Include="..\..\solution\solvers\source\solver_factory.cpp" />
+    <ClCompile Include="..\..\solution\solvers\source\user_configurable_solver.cpp" />
+    <ClCompile Include="..\..\solution\util\source\all_solution_info_filter.cpp" />
+    <ClCompile Include="..\..\solution\util\source\and_solution_info_filter.cpp" />
+    <ClCompile Include="..\..\solution\util\source\calc_counter.cpp" />
+    <ClCompile Include="..\..\solution\util\source\edfun.cpp" />
+    <ClCompile Include="..\..\solution\util\source\fdjac.cpp" />
+    <ClCompile Include="..\..\solution\util\source\has_market_flag_solution_info_filter.cpp" />
+    <ClCompile Include="..\..\solution\util\source\jacobian-precondition.cpp" />
+    <ClCompile Include="..\..\solution\util\source\market_name_solution_info_filter.cpp" />
+    <ClCompile Include="..\..\solution\util\source\market_type_solution_info_filter.cpp" />
+    <ClCompile Include="..\..\solution\util\source\not_solution_info_filter.cpp" />
+    <ClCompile Include="..\..\solution\util\source\or_solution_info_filter.cpp" />
+    <ClCompile Include="..\..\solution\util\source\price_greater_than_solution_info_filter.cpp" />
+    <ClCompile Include="..\..\solution\util\source\price_less_than_solution_info_filter.cpp" />
+    <ClCompile Include="..\..\solution\util\source\solution_info.cpp" />
+    <ClCompile Include="..\..\solution\util\source\solution_info_filter_factory.cpp" />
+    <ClCompile Include="..\..\solution\util\source\solution_info_param_parser.cpp" />
+    <ClCompile Include="..\..\solution\util\source\solution_info_set.cpp" />
+    <ClCompile Include="..\..\solution\util\source\solvable_nr_solution_info_filter.cpp" />
+    <ClCompile Include="..\..\solution\util\source\solvable_solution_info_filter.cpp" />
+    <ClCompile Include="..\..\solution\util\source\solver_library.cpp" />
+    <ClCompile Include="..\..\solution\util\source\unsolved_solution_info_filter.cpp" />
+    <ClCompile Include="..\..\target_finder\source\cumulative_emissions_target.cpp" />
+    <ClCompile Include="..\..\target_finder\source\kyoto_forcing_target.cpp" />
+    <ClCompile Include="..\..\target_finder\source\rcp_forcing_target.cpp" />
+    <ClCompile Include="..\..\target_finder\source\secanter.cpp" />
+    <ClCompile Include="..\..\technologies\source\ag_production_technology.cpp" />
+    <ClCompile Include="..\..\technologies\source\base_technology.cpp" />
+    <ClCompile Include="..\..\technologies\source\cal_data_output.cpp" />
+    <ClCompile Include="..\..\technologies\source\cal_data_output_percap.cpp" />
+    <ClCompile Include="..\..\technologies\source\capture_component_factory.cpp" />
+    <ClCompile Include="..\..\technologies\source\default_technology.cpp" />
+    <ClCompile Include="..\..\technologies\source\empty_technology.cpp" />
+    <ClCompile Include="..\..\technologies\source\expenditure.cpp" />
+    <ClCompile Include="..\..\technologies\source\fixed_production_state.cpp" />
+    <ClCompile Include="..\..\technologies\source\fractional_secondary_output.cpp" />
+    <ClCompile Include="..\..\technologies\source\generic_output.cpp" />
+    <ClCompile Include="..\..\technologies\source\global_technology_database.cpp" />
+    <ClCompile Include="..\..\technologies\source\intermittent_technology.cpp" />
+    <ClCompile Include="..\..\technologies\source\internal_gains.cpp" />
+    <ClCompile Include="..\..\technologies\source\marginal_profit_calculator.cpp" />
+    <ClCompile Include="..\..\technologies\source\non_energy_use_capture_component.cpp" />
+    <ClCompile Include="..\..\technologies\source\nuke_fuel_technology.cpp" />
+    <ClCompile Include="..\..\technologies\source\output_factory.cpp" />
+    <ClCompile Include="..\..\technologies\source\pass_through_technology.cpp" />
+    <ClCompile Include="..\..\technologies\source\phased_shutdown_decider.cpp" />
+    <ClCompile Include="..\..\technologies\source\power_plant_capture_component.cpp" />
+    <ClCompile Include="..\..\technologies\source\primary_output.cpp" />
+    <ClCompile Include="..\..\technologies\source\production_state_factory.cpp" />
+    <ClCompile Include="..\..\technologies\source\profit_shutdown_decider.cpp" />
+    <ClCompile Include="..\..\technologies\source\residue_biomass_output.cpp" />
+    <ClCompile Include="..\..\technologies\source\resource_reserve_technology.cpp" />
+    <ClCompile Include="..\..\technologies\source\res_secondary_output.cpp" />
+    <ClCompile Include="..\..\technologies\source\retired_production_state.cpp" />
+    <ClCompile Include="..\..\technologies\source\secondary_output.cpp" />
+    <ClCompile Include="..\..\technologies\source\shutdown_decider_factory.cpp" />
+    <ClCompile Include="..\..\technologies\source\solar_technology.cpp" />
+    <ClCompile Include="..\..\technologies\source\standard_capture_component.cpp" />
+    <ClCompile Include="..\..\technologies\source\standard_technical_change_calc.cpp" />
+    <ClCompile Include="..\..\technologies\source\stub_technology_container.cpp" />
+    <ClCompile Include="..\..\technologies\source\s_curve_shutdown_decider.cpp" />
+    <ClCompile Include="..\..\technologies\source\technology.cpp" />
+    <ClCompile Include="..\..\technologies\source\technology_container.cpp" />
+    <ClCompile Include="..\..\technologies\source\tran_technology.cpp" />
+    <ClCompile Include="..\..\technologies\source\unmanaged_land_technology.cpp" />
+    <ClCompile Include="..\..\technologies\source\variable_production_state.cpp" />
+    <ClCompile Include="..\..\technologies\source\vintage_production_state.cpp" />
+    <ClCompile Include="..\..\technologies\source\wind_technology.cpp" />
+    <ClCompile Include="..\..\util\base\source\atom.cpp" />
+    <ClCompile Include="..\..\util\base\source\atom_registry.cpp" />
+    <ClCompile Include="..\..\util\base\source\calibrate_resource_visitor.cpp" />
+    <ClCompile Include="..\..\util\base\source\calibrate_share_weight_visitor.cpp" />
+    <ClCompile Include="..\..\util\base\source\configuration.cpp" />
+    <ClCompile Include="..\..\util\base\source\fixed_interpolation_function.cpp" />
+    <ClCompile Include="..\..\util\base\source\gcam_fusion.cpp" />
+    <ClCompile Include="..\..\util\base\source\initialize_tech_vector_helper.cpp" />
+    <ClCompile Include="..\..\util\base\source\input_finder.cpp" />
+    <ClCompile Include="..\..\util\base\source\interpolation_function_factory.cpp" />
+    <ClCompile Include="..\..\util\base\source\interpolation_rule.cpp" />
+    <ClCompile Include="..\..\util\base\source\linear_interpolation_function.cpp" />
+    <ClCompile Include="..\..\util\base\source\manage_state_variables.cpp" />
+    <ClCompile Include="..\..\util\base\source\model_time.cpp" />
+    <ClCompile Include="..\..\util\base\source\supply_demand_curve_saver.cpp" />
+    <ClCompile Include="..\..\util\base\source\s_curve_interpolation_function.cpp" />
+    <ClCompile Include="..\..\util\base\source\supply_demand_curve.cpp" />
+    <ClCompile Include="..\..\util\base\source\timer.cpp" />
+    <ClCompile Include="..\..\util\base\source\util.cpp" />
+    <ClCompile Include="..\..\util\logger\source\logger.cpp" />
+    <ClCompile Include="..\..\util\logger\source\logger_factory.cpp" />
+    <ClCompile Include="..\..\util\logger\source\plain_text_logger.cpp" />
+    <ClCompile Include="..\..\util\logger\source\xml_logger.cpp" />
+    <ClCompile Include="..\..\util\curves\source\curve.cpp" />
+    <ClCompile Include="..\..\util\curves\source\data_point.cpp" />
+    <ClCompile Include="..\..\util\curves\source\explicit_point_set.cpp" />
+    <ClCompile Include="..\..\util\curves\source\point_set.cpp" />
+    <ClCompile Include="..\..\util\curves\source\point_set_curve.cpp" />
+    <ClCompile Include="..\..\util\curves\source\xy_data_point.cpp" />
+    <ClCompile Include="..\..\consumers\source\consumer.cpp" />
+    <ClCompile Include="..\..\reporting\source\batch_csv_outputter.cpp" />
+    <ClCompile Include="..\..\reporting\source\energy_balance_table.cpp" />
+    <ClCompile Include="..\..\reporting\source\graph_printer.cpp" />
+    <ClCompile Include="..\..\reporting\source\land_allocator_printer.cpp" />
+    <ClCompile Include="..\..\reporting\source\storage_table.cpp" />
+    <ClCompile Include="..\..\reporting\source\xml_db_outputter.cpp" />
+    <ClCompile Include="..\..\climate\source\magicc_model.cpp" />
+    <ClCompile Include="..\..\functions\source\aproduction_function.cpp" />
+    <ClCompile Include="..\..\functions\source\ces_production_function.cpp" />
+    <ClCompile Include="..\..\functions\source\efficiency.cpp" />
+    <ClCompile Include="..\..\functions\source\energy_input.cpp" />
+    <ClCompile Include="..\..\functions\source\function_manager.cpp" />
+    <ClCompile Include="..\..\functions\source\function_utils.cpp" />
+    <ClCompile Include="..\..\functions\source\input_capital.cpp" />
+    <ClCompile Include="..\..\technologies\source\input_factory.cpp" />
+    <ClCompile Include="..\..\functions\source\input_OM_fixed.cpp" />
+    <ClCompile Include="..\..\functions\source\input_OM_var.cpp" />
+    <ClCompile Include="..\..\functions\source\input_subsidy.cpp" />
+    <ClCompile Include="..\..\functions\source\input_tax.cpp" />
+    <ClCompile Include="..\..\functions\source\intensity.cpp" />
+    <ClCompile Include="..\..\functions\source\leaf_input_finder.cpp" />
+    <ClCompile Include="..\..\functions\source\leontief_production_function.cpp" />
+    <ClCompile Include="..\..\functions\source\logit_production_function.cpp" />
+    <ClCompile Include="..\..\functions\source\minicam_input.cpp" />
+    <ClCompile Include="..\..\functions\source\minicam_leontief_production_function.cpp" />
+    <ClCompile Include="..\..\functions\source\minicam_price_elasticity_function.cpp" />
+    <ClCompile Include="..\..\functions\source\nested_ces_production_function.cpp" />
+    <ClCompile Include="..\..\functions\source\node_input.cpp" />
+    <ClCompile Include="..\..\functions\source\non_energy_input.cpp" />
+    <ClCompile Include="..\..\functions\source\renewable_input.cpp" />
+    <ClCompile Include="..\..\target_finder\source\bisecter.cpp" />
+    <ClCompile Include="..\..\target_finder\source\concentration_target.cpp" />
+    <ClCompile Include="..\..\target_finder\source\emissions_stabalization_target.cpp" />
+    <ClCompile Include="..\..\target_finder\source\forcing_target.cpp" />
+    <ClCompile Include="..\..\target_finder\source\policy_target_runner.cpp" />
+    <ClCompile Include="..\..\target_finder\source\target_factory.cpp" />
+    <ClCompile Include="..\..\target_finder\source\temperature_target.cpp" />
+    <ClCompile Include="..\..\land_allocator\source\aland_allocator_item.cpp" />
+    <ClCompile Include="..\..\land_allocator\source\land_leaf.cpp" />
+    <ClCompile Include="..\..\land_allocator\source\land_node.cpp" />
+    <ClCompile Include="..\..\land_allocator\source\land_use_history.cpp" />
+    <ClCompile Include="..\..\land_allocator\source\unmanaged_land_leaf.cpp" />
+    <ClCompile Include="..\..\main\source\main.cpp" />
+    <ClCompile Include="..\..\policy\source\policy_ghg.cpp" />
+    <ClCompile Include="..\..\policy\source\policy_portfolio_standard.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ccarbon_model\include\asimple_carbon_calc.h" />
+    <ClInclude Include="..\..\ccarbon_model\include\carbon_model_utils.h" />
+    <ClInclude Include="..\..\ccarbon_model\include\icarbon_calc.h" />
+    <ClInclude Include="..\..\ccarbon_model\include\land_carbon_densities.h" />
+    <ClInclude Include="..\..\ccarbon_model\include\node_carbon_calc.h" />
+    <ClInclude Include="..\..\ccarbon_model\include\no_emiss_carbon_calc.h" />
+    <ClInclude Include="..\..\climate\include\hector_model.hpp" />
+    <ClInclude Include="..\..\climate\include\MAGICC_array.h" />
+    <ClInclude Include="..\..\climate\include\no_climate_model.h" />
+    <ClInclude Include="..\..\climate\include\ObjECTS_MAGICC.h" />
+    <ClInclude Include="..\..\consumers\include\gcam_consumer.h" />
+    <ClInclude Include="..\..\containers\include\batch_runner.h" />
+    <ClInclude Include="..\..\containers\include\consumer_activity.h" />
+    <ClInclude Include="..\..\containers\include\final_demand_activity.h" />
+    <ClInclude Include="..\..\containers\include\gdp.h" />
+    <ClInclude Include="..\..\containers\include\iactivity.h" />
+    <ClInclude Include="..\..\containers\include\iinfo.h" />
+    <ClInclude Include="..\..\containers\include\imodel_feedback_calc.h" />
+    <ClInclude Include="..\..\containers\include\info.h" />
+    <ClInclude Include="..\..\containers\include\info_factory.h" />
+    <ClInclude Include="..\..\containers\include\iscenario_runner.h" />
+    <ClInclude Include="..\..\containers\include\land_allocator_activity.h" />
+    <ClInclude Include="..\..\containers\include\mac_generator_scenario_runner.h" />
+    <ClInclude Include="..\..\containers\include\market_dependency_finder.h" />
+    <ClInclude Include="..\..\containers\include\national_account.h" />
+    <ClInclude Include="..\..\containers\include\region.h" />
+    <ClInclude Include="..\..\containers\include\region_minicam.h" />
+    <ClInclude Include="..\..\containers\include\resource_activity.h" />
+    <ClInclude Include="..\..\containers\include\scenario.h" />
+    <ClInclude Include="..\..\containers\include\scenario_runner_factory.h" />
+    <ClInclude Include="..\..\containers\include\sector_activity.h" />
+    <ClInclude Include="..\..\containers\include\single_scenario_runner.h" />
+    <ClInclude Include="..\..\containers\include\total_policy_cost_calculator.h" />
+    <ClInclude Include="..\..\containers\include\tree_item.h" />
+    <ClInclude Include="..\..\containers\include\world.h" />
+    <ClInclude Include="..\..\demographics\include\age_cohort.h" />
+    <ClInclude Include="..\..\demographics\include\demographic.h" />
+    <ClInclude Include="..\..\demographics\include\female.h" />
+    <ClInclude Include="..\..\demographics\include\gender.h" />
+    <ClInclude Include="..\..\demographics\include\male.h" />
+    <ClInclude Include="..\..\demographics\include\population.h" />
+    <ClInclude Include="..\..\demographics\include\population_mini_cam.h" />
+    <ClInclude Include="..\..\emissions\include\aemissions_control.h" />
+    <ClInclude Include="..\..\emissions\include\iemissions_driver.h" />
+    <ClInclude Include="..\..\emissions\include\aghg.h" />
+    <ClInclude Include="..\..\emissions\include\co2_emissions.h" />
+    <ClInclude Include="..\..\emissions\include\emissions_control_factory.h" />
+    <ClInclude Include="..\..\emissions\include\emissions_driver_factory.h" />
+    <ClInclude Include="..\..\emissions\include\emissions_summer.h" />
+    <ClInclude Include="..\..\emissions\include\gdp_control.h" />
+    <ClInclude Include="..\..\emissions\include\ghg_factory.h" />
+    <ClInclude Include="..\..\emissions\include\input_driver.h" />
+    <ClInclude Include="..\..\emissions\include\input_output_driver.h" />
+    <ClInclude Include="..\..\emissions\include\linear_control.h" />
+    <ClInclude Include="..\..\emissions\include\luc_emissions_summer.h" />
+    <ClInclude Include="..\..\emissions\include\mac_control.h" />
+    <ClInclude Include="..\..\emissions\include\nonco2_emissions.h" />
+    <ClInclude Include="..\..\emissions\include\output_driver.h" />
+    <ClInclude Include="..\..\emissions\include\readin_control.h" />
+    <ClInclude Include="..\..\functions\include\absolute_cost_logit.hpp" />
+    <ClInclude Include="..\..\functions\include\building_function.h" />
+    <ClInclude Include="..\..\functions\include\building_node_input.h" />
+    <ClInclude Include="..\..\functions\include\building_service_function.h" />
+    <ClInclude Include="..\..\functions\include\building_service_input.h" />
+    <ClInclude Include="..\..\functions\include\ctax_input.h" />
+    <ClInclude Include="..\..\functions\include\discrete_choice_factory.hpp" />
+    <ClInclude Include="..\..\functions\include\food_demand_function.h" />
+    <ClInclude Include="..\..\functions\include\food_demand_input.h" />
+    <ClInclude Include="..\..\functions\include\idiscrete_choice.hpp" />
+    <ClInclude Include="..\..\functions\include\relative_cost_logit.hpp" />
+    <ClInclude Include="..\..\functions\include\satiation_demand_function.h" />
+    <ClInclude Include="..\..\functions\include\thermal_building_service_input.h" />
+    <ClInclude Include="..\..\land_allocator\include\carbon_land_leaf.h" />
+    <ClInclude Include="..\..\land_allocator\include\land_allocator.h" />
+    <ClInclude Include="..\..\land_allocator\include\land_use_history.h" />
+    <ClInclude Include="..\..\marketplace\include\cached_market.h" />
+    <ClInclude Include="..\..\marketplace\include\calibration_market.h" />
+    <ClInclude Include="..\..\marketplace\include\demand_market.h" />
+    <ClInclude Include="..\..\marketplace\include\imarket_type.h" />
+    <ClInclude Include="..\..\marketplace\include\inverse_calibration_market.h" />
+    <ClInclude Include="..\..\marketplace\include\linked_market.h" />
+    <ClInclude Include="..\..\marketplace\include\market.h" />
+    <ClInclude Include="..\..\marketplace\include\market_container.h" />
+    <ClInclude Include="..\..\marketplace\include\market_locator.h" />
+    <ClInclude Include="..\..\marketplace\include\market_RES.h" />
+    <ClInclude Include="..\..\marketplace\include\market_subsidy.h" />
+    <ClInclude Include="..\..\marketplace\include\market_tax.h" />
+    <ClInclude Include="..\..\marketplace\include\marketplace.h" />
+    <ClInclude Include="..\..\marketplace\include\normal_market.h" />
+    <ClInclude Include="..\..\marketplace\include\price_market.h" />
+    <ClInclude Include="..\..\marketplace\include\trial_value_market.h" />
+    <ClInclude Include="..\..\parallel\include\bitvector.hpp" />
+    <ClInclude Include="..\..\parallel\include\bmatrix.hpp" />
+    <ClInclude Include="..\..\parallel\include\clanid.hpp" />
+    <ClInclude Include="..\..\parallel\include\digraph.hpp" />
+    <ClInclude Include="..\..\parallel\include\gcam_parallel.hpp" />
+    <ClInclude Include="..\..\parallel\include\grain-collect.hpp" />
+    <ClInclude Include="..\..\parallel\include\graph-parse.hpp" />
+    <ClInclude Include="..\..\parallel\include\util.hpp" />
+    <ClInclude Include="..\..\policy\include\linked_ghg_policy.h" />
+    <ClInclude Include="..\..\resources\include\accumulated_grade.h" />
+    <ClInclude Include="..\..\resources\include\accumulated_post_grade.h" />
+    <ClInclude Include="..\..\resources\include\aresource.h" />
+    <ClInclude Include="..\..\resources\include\grade.h" />
+    <ClInclude Include="..\..\resources\include\renewable_subresource.h" />
+    <ClInclude Include="..\..\resources\include\reserve_subresource.h" />
+    <ClInclude Include="..\..\resources\include\resource.h" />
+    <ClInclude Include="..\..\resources\include\smooth_renewable_subresource.h" />
+    <ClInclude Include="..\..\resources\include\subresource.h" />
+    <ClInclude Include="..\..\resources\include\unlimited_resource.h" />
+    <ClInclude Include="..\..\sectors\include\afinal_demand.h" />
+    <ClInclude Include="..\..\sectors\include\ag_supply_sector.h" />
+    <ClInclude Include="..\..\sectors\include\ag_supply_subsector.h" />
+    <ClInclude Include="..\..\sectors\include\backup_calculator_factory.h" />
+    <ClInclude Include="..\..\sectors\include\capacity_limit_backup_calculator.h" />
+    <ClInclude Include="..\..\sectors\include\CSP_backup_calculator.h" />
+    <ClInclude Include="..\..\sectors\include\energy_final_demand.h" />
+    <ClInclude Include="..\..\sectors\include\ibackup_calculator.h" />
+    <ClInclude Include="..\..\sectors\include\negative_emissions_final_demand.h" />
+    <ClInclude Include="..\..\sectors\include\nesting_subsector.h" />
+    <ClInclude Include="..\..\sectors\include\pass_through_sector.h" />
+    <ClInclude Include="..\..\sectors\include\sector.h" />
+    <ClInclude Include="..\..\sectors\include\sector_utils.h" />
+    <ClInclude Include="..\..\sectors\include\subsector.h" />
+    <ClInclude Include="..\..\sectors\include\subsector_add_techcosts.h" />
+    <ClInclude Include="..\..\sectors\include\supply_sector.h" />
+    <ClInclude Include="..\..\sectors\include\tran_subsector.h" />
+    <ClInclude Include="..\..\sectors\include\wind_backup_calculator.h" />
+    <ClInclude Include="..\..\solution\solvers\include\bisect_all.h" />
+    <ClInclude Include="..\..\solution\solvers\include\bisect_one.h" />
+    <ClInclude Include="..\..\solution\solvers\include\bisect_policy.h" />
+    <ClInclude Include="..\..\solution\solvers\include\bisect_policy_nr_solver.h" />
+    <ClInclude Include="..\..\solution\solvers\include\bisection_nr_solver.h" />
+    <ClInclude Include="..\..\solution\solvers\include\logbroyden.hpp" />
+    <ClInclude Include="..\..\solution\solvers\include\log_newton_raphson.h" />
+    <ClInclude Include="..\..\solution\solvers\include\log_newton_raphson_sd.h" />
+    <ClInclude Include="..\..\solution\solvers\include\preconditioner.hpp" />
+    <ClInclude Include="..\..\solution\solvers\include\solver.h" />
+    <ClInclude Include="..\..\solution\solvers\include\solver_component.h" />
+    <ClInclude Include="..\..\solution\solvers\include\solver_component_factory.h" />
+    <ClInclude Include="..\..\solution\solvers\include\solver_factory.h" />
+    <ClInclude Include="..\..\solution\solvers\include\user_configurable_solver.h" />
+    <ClInclude Include="..\..\solution\util\include\all_solution_info_filter.h" />
+    <ClInclude Include="..\..\solution\util\include\and_solution_info_filter.h" />
+    <ClInclude Include="..\..\solution\util\include\calc_counter.h" />
+    <ClInclude Include="..\..\solution\util\include\edfun.hpp" />
+    <ClInclude Include="..\..\solution\util\include\fdjac.hpp" />
+    <ClInclude Include="..\..\solution\util\include\functor.hpp" />
+    <ClInclude Include="..\..\solution\util\include\has_market_flag_solution_info_filter.h" />
+    <ClInclude Include="..\..\solution\util\include\isolution_info_filter.h" />
+    <ClInclude Include="..\..\solution\util\include\jacobian-precondition.hpp" />
+    <ClInclude Include="..\..\solution\util\include\linesearch.hpp" />
+    <ClInclude Include="..\..\solution\util\include\market_name_solution_info_filter.h" />
+    <ClInclude Include="..\..\solution\util\include\market_type_solution_info_filter.h" />
+    <ClInclude Include="..\..\solution\util\include\not_solution_info_filter.h" />
+    <ClInclude Include="..\..\solution\util\include\or_solution_info_filter.h" />
+    <ClInclude Include="..\..\solution\util\include\price_greater_than_solution_info_filter.h" />
+    <ClInclude Include="..\..\solution\util\include\price_less_than_solution_info_filter.h" />
+    <ClInclude Include="..\..\solution\util\include\solution_info.h" />
+    <ClInclude Include="..\..\solution\util\include\solution_info_filter_factory.h" />
+    <ClInclude Include="..\..\solution\util\include\solution_info_param_parser.h" />
+    <ClInclude Include="..\..\solution\util\include\solution_info_set.h" />
+    <ClInclude Include="..\..\solution\util\include\solvable_nr_solution_info_filter.h" />
+    <ClInclude Include="..\..\solution\util\include\solvable_solution_info_filter.h" />
+    <ClInclude Include="..\..\solution\util\include\solver_library.h" />
+    <ClInclude Include="..\..\solution\util\include\ublas-helpers.hpp" />
+    <ClInclude Include="..\..\solution\util\include\unsolved_solution_info_filter.h" />
+    <ClInclude Include="..\..\solution\util\include\unsolved_solver_info_filter.h" />
+    <ClInclude Include="..\..\target_finder\include\cumulative_emissions_target.h" />
+    <ClInclude Include="..\..\target_finder\include\emissions_stabalization_target.h" />
+    <ClInclude Include="..\..\target_finder\include\itarget_solver.h" />
+    <ClInclude Include="..\..\target_finder\include\kyoto_forcing_target.h" />
+    <ClInclude Include="..\..\target_finder\include\rcp_forcing_target.h" />
+    <ClInclude Include="..\..\target_finder\include\secanter.h" />
+    <ClInclude Include="..\..\technologies\include\ag_production_technology.h" />
+    <ClInclude Include="..\..\technologies\include\base_technology.h" />
+    <ClInclude Include="..\..\technologies\include\cal_data_output.h" />
+    <ClInclude Include="..\..\technologies\include\cal_data_output_percap.h" />
+    <ClInclude Include="..\..\technologies\include\capture_component_factory.h" />
+    <ClInclude Include="..\..\technologies\include\default_technology.h" />
+    <ClInclude Include="..\..\technologies\include\empty_technology.h" />
+    <ClInclude Include="..\..\technologies\include\expenditure.h" />
+    <ClInclude Include="..\..\technologies\include\fixed_production_state.h" />
+    <ClInclude Include="..\..\technologies\include\fractional_secondary_output.h" />
+    <ClInclude Include="..\..\technologies\include\generic_output.h" />
+    <ClInclude Include="..\..\technologies\include\global_technology_database.h" />
+    <ClInclude Include="..\..\technologies\include\ical_data.h" />
+    <ClInclude Include="..\..\technologies\include\icapture_component.h" />
+    <ClInclude Include="..\..\technologies\include\input_factory.h" />
+    <ClInclude Include="..\..\technologies\include\intermittent_technology.h" />
+    <ClInclude Include="..\..\technologies\include\internal_gains.h" />
+    <ClInclude Include="..\..\technologies\include\ioutput.h" />
+    <ClInclude Include="..\..\technologies\include\iproduction_state.h" />
+    <ClInclude Include="..\..\technologies\include\ishutdown_decider.h" />
+    <ClInclude Include="..\..\technologies\include\itechnical_change_calc.h" />
+    <ClInclude Include="..\..\technologies\include\itechnology.h" />
+    <ClInclude Include="..\..\technologies\include\itechnology_container.h" />
+    <ClInclude Include="..\..\technologies\include\marginal_profit_calculator.h" />
+    <ClInclude Include="..\..\technologies\include\non_energy_use_capture_component.h" />
+    <ClInclude Include="..\..\technologies\include\nuke_fuel_technology.h" />
+    <ClInclude Include="..\..\technologies\include\output_factory.h" />
+    <ClInclude Include="..\..\technologies\include\pass_through_technology.h" />
+    <ClInclude Include="..\..\technologies\include\phased_shutdown_decider.h" />
+    <ClInclude Include="..\..\technologies\include\power_plant_capture_component.h" />
+    <ClInclude Include="..\..\technologies\include\primary_output.h" />
+    <ClInclude Include="..\..\technologies\include\production_state_factory.h" />
+    <ClInclude Include="..\..\technologies\include\profit_shutdown_decider.h" />
+    <ClInclude Include="..\..\technologies\include\residue_biomass_output.h" />
+    <ClInclude Include="..\..\technologies\include\resource_reserve_technology.h" />
+    <ClInclude Include="..\..\technologies\include\res_secondary_output.h" />
+    <ClInclude Include="..\..\technologies\include\retired_production_state.h" />
+    <ClInclude Include="..\..\technologies\include\secondary_output.h" />
+    <ClInclude Include="..\..\technologies\include\shutdown_decider_factory.h" />
+    <ClInclude Include="..\..\technologies\include\solar_technology.h" />
+    <ClInclude Include="..\..\technologies\include\standard_capture_component.h" />
+    <ClInclude Include="..\..\technologies\include\standard_technical_change_calc.h" />
+    <ClInclude Include="..\..\technologies\include\stub_technology_container.h" />
+    <ClInclude Include="..\..\technologies\include\s_curve_shutdown_decider.h" />
+    <ClInclude Include="..\..\technologies\include\technology.h" />
+    <ClInclude Include="..\..\technologies\include\technology_container.h" />
+    <ClInclude Include="..\..\technologies\include\tran_technology.h" />
+    <ClInclude Include="..\..\technologies\include\unmanaged_land_technology.h" />
+    <ClInclude Include="..\..\technologies\include\variable_production_state.h" />
+    <ClInclude Include="..\..\technologies\include\vintage_production_state.h" />
+    <ClInclude Include="..\..\technologies\include\wind_technology.h" />
+    <ClInclude Include="..\..\util\base\include\atom.h" />
+    <ClInclude Include="..\..\util\base\include\atom_registry.h" />
+    <ClInclude Include="..\..\util\base\include\auto_file.h" />
+    <ClInclude Include="..\..\util\base\include\calibrate_resource_visitor.h" />
+    <ClInclude Include="..\..\util\base\include\calibrate_share_weight_visitor.h" />
+    <ClInclude Include="..\..\util\base\include\configuration.h" />
+    <ClInclude Include="..\..\util\base\include\data_definition_util.h" />
+    <ClInclude Include="..\..\util\base\include\default_visitor.h" />
+    <ClInclude Include="..\..\util\base\include\definitions.h" />
+    <ClInclude Include="..\..\util\base\include\expand_data_vector.h" />
+    <ClInclude Include="..\..\util\base\include\factory.h" />
+    <ClInclude Include="..\..\util\base\include\fixed_interpolation_function.h" />
+    <ClInclude Include="..\..\util\base\include\fltcmp.hpp" />
+    <ClInclude Include="..\..\util\base\include\gcam_data_containers.h" />
+    <ClInclude Include="..\..\util\base\include\gcam_fusion.hpp" />
+    <ClInclude Include="..\..\util\base\include\hash_map.h" />
+    <ClInclude Include="..\..\util\base\include\iinterpolation_function.h" />
+    <ClInclude Include="..\..\util\base\include\inamed.h" />
+    <ClInclude Include="..\..\util\base\include\initialize_tech_vector_helper.hpp" />
+    <ClInclude Include="..\..\util\base\include\input_finder.h" />
+    <ClInclude Include="..\..\util\base\include\interpolation_function_factory.h" />
+    <ClInclude Include="..\..\util\base\include\interpolation_rule.h" />
+    <ClInclude Include="..\..\util\base\include\iparsable.h" />
+    <ClInclude Include="..\..\util\base\include\istandard_component.h" />
+    <ClInclude Include="..\..\util\base\include\ivisitable.h" />
+    <ClInclude Include="..\..\util\base\include\ivisitor.h" />
+    <ClInclude Include="..\..\util\base\include\iyeared.h" />
+    <ClInclude Include="..\..\util\base\include\linear_interpolation_function.h" />
+    <ClInclude Include="..\..\util\base\include\manage_state_variables.hpp" />
+    <ClInclude Include="..\..\util\base\include\model_time.h" />
+    <ClInclude Include="..\..\util\base\include\object_meta_info.h" />
+    <ClInclude Include="..\..\util\base\include\supply_demand_curve_saver.h" />
+    <ClInclude Include="..\..\util\base\include\s_curve_interpolation_function.h" />
+    <ClInclude Include="..\..\util\base\include\string_hash.h" />
+    <ClInclude Include="..\..\util\base\include\supply_demand_curve.h" />
+    <ClInclude Include="..\..\util\base\include\time_vector.h" />
+    <ClInclude Include="..\..\util\base\include\timer.h" />
+    <ClInclude Include="..\..\util\base\include\TValidatorInfo.h" />
+    <ClInclude Include="..\..\util\base\include\util.h" />
+    <ClInclude Include="..\..\util\base\include\value.h" />
+    <ClInclude Include="..\..\util\base\include\version.h" />
+    <ClInclude Include="..\..\util\base\include\xml_helper.h" />
+    <ClInclude Include="..\..\util\base\include\xml_pair.h" />
+    <ClInclude Include="..\..\util\logger\include\ilogger.h" />
+    <ClInclude Include="..\..\util\logger\include\logger.h" />
+    <ClInclude Include="..\..\util\logger\include\logger_factory.h" />
+    <ClInclude Include="..\..\util\logger\include\plain_text_logger.h" />
+    <ClInclude Include="..\..\util\logger\include\xml_logger.h" />
+    <ClInclude Include="..\..\util\curves\include\cost_curve.h" />
+    <ClInclude Include="..\..\util\curves\include\curve.h" />
+    <ClInclude Include="..\..\util\curves\include\data_point.h" />
+    <ClInclude Include="..\..\util\curves\include\explicit_point_set.h" />
+    <ClInclude Include="..\..\util\curves\include\point_set.h" />
+    <ClInclude Include="..\..\util\curves\include\point_set_curve.h" />
+    <ClInclude Include="..\..\util\curves\include\xy_data_point.h" />
+    <ClInclude Include="..\..\consumers\include\consumer.h" />
+    <ClInclude Include="..\..\reporting\include\batch_csv_outputter.h" />
+    <ClInclude Include="..\..\reporting\include\energy_balance_table.h" />
+    <ClInclude Include="..\..\reporting\include\graph_printer.h" />
+    <ClInclude Include="..\..\reporting\include\storage_table.h" />
+    <ClInclude Include="..\..\reporting\include\xml_db_outputter.h" />
+    <ClInclude Include="..\..\functions\include\aproduction_function.h" />
+    <ClInclude Include="..\..\functions\include\ces_production_function.h" />
+    <ClInclude Include="..\..\functions\include\efficiency.h" />
+    <ClInclude Include="..\..\functions\include\energy_input.h" />
+    <ClInclude Include="..\..\functions\include\function_manager.h" />
+    <ClInclude Include="..\..\functions\include\function_utils.h" />
+    <ClInclude Include="..\..\functions\include\icoefficient.h" />
+    <ClInclude Include="..\..\functions\include\ifunction.h" />
+    <ClInclude Include="..\..\functions\include\iinput.h" />
+    <ClInclude Include="..\..\functions\include\inested_input.h" />
+    <ClInclude Include="..\..\functions\include\input_capital.h" />
+    <ClInclude Include="..\..\functions\include\input_OM_fixed.h" />
+    <ClInclude Include="..\..\functions\include\input_OM_var.h" />
+    <ClInclude Include="..\..\functions\include\input_subsidy.h" />
+    <ClInclude Include="..\..\functions\include\input_tax.h" />
+    <ClInclude Include="..\..\functions\include\intensity.h" />
+    <ClInclude Include="..\..\functions\include\leaf_input_finder.h" />
+    <ClInclude Include="..\..\functions\include\leontief_production_function.h" />
+    <ClInclude Include="..\..\functions\include\logit_production_function.h" />
+    <ClInclude Include="..\..\functions\include\minicam_input.h" />
+    <ClInclude Include="..\..\functions\include\minicam_leontief_production_function.h" />
+    <ClInclude Include="..\..\functions\include\minicam_price_elasticity_function.h" />
+    <ClInclude Include="..\..\functions\include\nested_ces_production_function.h" />
+    <ClInclude Include="..\..\functions\include\node_input.h" />
+    <ClInclude Include="..\..\functions\include\non_energy_input.h" />
+    <ClInclude Include="..\..\functions\include\renewable_input.h" />
+    <ClInclude Include="..\..\climate\include\iclimate_model.h" />
+    <ClInclude Include="..\..\climate\include\magicc_model.h" />
+    <ClInclude Include="..\..\target_finder\include\bisecter.h" />
+    <ClInclude Include="..\..\target_finder\include\concentration_target.h" />
+    <ClInclude Include="..\..\target_finder\include\forcing_target.h" />
+    <ClInclude Include="..\..\target_finder\include\itarget.h" />
+    <ClInclude Include="..\..\target_finder\include\policy_target_runner.h" />
+    <ClInclude Include="..\..\target_finder\include\target_factory.h" />
+    <ClInclude Include="..\..\target_finder\include\temperature_target.h" />
+    <ClInclude Include="..\..\land_allocator\include\aland_allocator_item.h" />
+    <ClInclude Include="..\..\land_allocator\include\iland_allocator.h" />
+    <ClInclude Include="..\..\land_allocator\include\land_leaf.h" />
+    <ClInclude Include="..\..\land_allocator\include\land_node.h" />
+    <ClInclude Include="..\..\land_allocator\include\unmanaged_land_leaf.h" />
+    <ClInclude Include="..\..\policy\include\policy_ghg.h" />
+    <ClInclude Include="..\..\policy\include\policy_portfolio_standard.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\climate\source\hector\project_files\VS\hector-lib.vcxproj">
+      <Project>{88489c16-7642-48bb-b36c-c4b9507a1de2}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
