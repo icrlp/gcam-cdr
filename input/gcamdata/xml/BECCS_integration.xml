@@ -1,0 +1,3996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+     <region name="USA">
+		 <policy-portfolio-standard name="BECCS">
+			<!-- This market manages the interaction between
+			     bioenergy technologies with CCS and their
+				 competition with other CDR technologies. The
+				 constraint should stay at 0.0 because supply
+				 and demand are added from elsewhere. -->
+			<policyType>RES</policyType>
+			<market>USA</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+		    <!-- The price of this market is used to counteract the
+			     carbon price-based subsidy that BECCS technologies
+				 normally receive. To restore that subsidy, change
+				 this price to 0.0 in every region. You can also
+				 use values between 0 and 1 and set different 
+				 values for different regions. -->
+		 	<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" /><!-- Add BECCS to the CDR market. -->
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Africa_Eastern">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Africa_Eastern</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Africa_Northern">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Africa_Northern</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Africa_Southern">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Africa_Southern</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Africa_Western">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Africa_Western</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Australia_NZ">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Australia_NZ</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Brazil">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Brazil</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Canada">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Canada</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Central America and Caribbean">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Central America and Caribbean</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Central Asia">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Central Asia</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="China">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>China</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="EU-12">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>EU-12</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="EU-15">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>EU-15</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Europe_Eastern">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Europe_Eastern</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Europe_Non_EU">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Europe_Non_EU</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="European Free Trade Association">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>European Free Trade Association</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="India">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>India</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Indonesia">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Indonesia</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Japan">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Japan</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Mexico">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Mexico</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Middle East">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Middle East</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Pakistan">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Pakistan</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Russia">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Russia</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="South Africa">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>South Africa</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="South America_Northern">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>South America_Northern</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="South America_Southern">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>South America_Southern</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="South Asia">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>South Asia</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="South Korea">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>South Korea</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Southeast Asia">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Southeast Asia</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Taiwan">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Taiwan</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Argentina">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Argentina</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <region name="Colombia">
+		 <policy-portfolio-standard name="BECCS">
+			<policyType>RES</policyType>
+			<market>Colombia</market>
+			<min-price fillout="1" year="1975">0.1</min-price>
+			<max-price fillout="1" year="1975">1.0</max-price>
+			<constraint fillout="1" year="2020">0.0</constraint>
+		 </policy-portfolio-standard>
+		 <ghgpolicy name="BECCS_countersubsidy">
+			<fixedTax year="2020" fillout="1">1.0</fixedTax>
+		 </ghgpolicy>
+		 <supplysector name="CDR_regional">
+		   <subsector name="CDR">
+			 <stub-technology name="BECCS" />
+		   </subsector>
+		 </supplysector>
+      </region>
+      <global-technology-database>
+		 <location-info sector-name="CDR_regional" subsector-name="CDR">
+			<technology name="BECCS">
+				<period year="1975">
+				  <share-weight>0</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+				</period>
+				<period year="1990">
+				  <share-weight>0</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+				</period>
+				<period year="2005">
+				  <share-weight>0</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+				</period>
+				<period year="2010">
+				  <share-weight>0</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+				</period>
+				<period year="2015">
+				  <share-weight>0</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+				</period>
+				<period year="2020">
+				  <share-weight>0</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+               </period>
+               <period year="2025">
+				  <share-weight>0.5</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+               </period>
+               <period year="2030">
+				  <share-weight>1</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+               </period>
+               <period year="2035">
+				  <share-weight>1</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+               </period>
+               <period year="2040">
+				  <share-weight>1</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+               </period>
+               <period year="2045">
+				  <share-weight>1</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+               </period>
+               <period year="2050">
+				  <share-weight>1</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+               </period>
+               <period year="2055">
+				  <share-weight>1</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+               </period>
+               <period year="2060">
+				  <share-weight>1</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+               </period>
+               <period year="2065">
+				  <share-weight>1</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+               </period>
+               <period year="2070">
+				  <share-weight>1</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+               </period>
+               <period year="2075">
+				  <share-weight>1</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+               </period>
+               <period year="2080">
+				  <share-weight>1</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+               </period>
+               <period year="2085">
+				  <share-weight>1</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+               </period>
+               <period year="2090">
+				  <share-weight>1</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+               </period>
+               <period year="2095">
+				  <share-weight>1</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+               </period>
+               <period year="2100">
+				  <share-weight>1</share-weight>
+				  <minicam-energy-input name="BECCS">
+					<coefficient>1</coefficient>
+				  </minicam-energy-input>
+               </period>
+			</technology>
+		 </location-info>
+		 
+         <location-info sector-name="biorefining" subsector-name="biomass liquids">
+            <technology name="FT biofuels CCS level 1">
+				<period year="2020">
+				  <!-- Add supply to the BECCS market and
+				       get paid for CDR at a price determined
+					   by the CDR market. -->
+                  <res-secondary-output name="BECCS">
+                     <output-ratio>22.38354</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <!-- Pay back the carbon price-based payment
+				       that BECCS technologies normally receive
+					   for sequestering carbon. -->
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>22.38354</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2025">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>22.1124275</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>22.1124275</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2030">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>21.841315</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>21.841315</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2035">
+                  <res-secondary-output name="BECCS">
+                     <output-ratio>21.5702025</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>21.5702025</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2040">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>21.29909</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>21.29909</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2045">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>21.0279775</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>21.0279775</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2050">
+                  <res-secondary-output name="BECCS">
+                     <output-ratio>20.756865</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.756865</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2055">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.4857525</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.4857525</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2060">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.21464</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.21464</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2065">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.9435275</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.9435275</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2070">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.672415</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.672415</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2075">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.4013025</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.4013025</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2080">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.13019</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.13019</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2085">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>18.8590775</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>18.8590775</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2090">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>18.587965</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>18.587965</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2095">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>18.3168525</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>18.3168525</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2100">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>18.04574</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>18.04574</fuel-C-coef>
+				  </ctax-input>
+               </period>
+            </technology>
+            <technology name="FT biofuels CCS level 2">
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>27.0099</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>27.0099</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2025">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.694225</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.694225</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2030">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.37855</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.37855</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2035">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.062875</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.062875</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2040">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>25.7472</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>25.7472</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2045">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>25.431525</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>25.431525</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2050">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>25.11585</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>25.11585</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2055">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>24.800175</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>24.800175</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2060">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>24.4845</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>24.4845</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2065">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>24.168825</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>24.168825</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2070">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>23.85315</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>23.85315</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2075">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>23.537475</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>23.537475</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2080">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>23.2218</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>23.2218</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2085">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>22.906125</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>22.906125</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2090">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>22.59045</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>22.59045</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2095">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>22.274775</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>22.274775</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2100">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>21.9591</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>21.9591</fuel-C-coef>
+				  </ctax-input>
+               </period>
+            </technology>
+            <technology name="cellulosic ethanol CCS level 1">
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>7.69522</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>7.69522</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2025">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>7.58421625</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>7.58421625</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2030">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>7.4732125</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>7.4732125</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2035">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>7.36220875</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>7.36220875</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2040">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>7.251205</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>7.251205</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2045">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>7.14020125</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>7.14020125</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2050">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>7.0291975</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>7.0291975</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2055">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>6.91819375</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>6.91819375</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2060">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>6.80719</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>6.80719</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2065">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>6.69618625</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>6.69618625</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2070">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>6.5851825</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>6.5851825</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2075">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>6.47417875</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>6.47417875</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2080">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>6.363175</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>6.363175</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2085">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>6.25217125</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>6.25217125</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2090">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>6.1411675</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>6.1411675</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2095">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>6.03016375</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>6.03016375</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2100">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>5.91916</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>5.91916</fuel-C-coef>
+				  </ctax-input>
+               </period>
+            </technology>
+            <technology name="cellulosic ethanol CCS level 2">
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>29.2041</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>29.2041</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2025">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>28.79656875</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>28.79656875</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2030">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>28.3890375</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>28.3890375</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2035">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>27.98150625</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>27.98150625</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2040">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>27.573975</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>27.573975</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2045">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>27.16644375</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>27.16644375</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2050">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.7589125</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.7589125</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2055">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.35138125</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.35138125</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2060">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>25.94385</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>25.94385</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2065">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>25.53631875</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>25.53631875</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2070">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>25.1287875</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>25.1287875</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2075">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>24.72125625</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>24.72125625</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2080">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>24.313725</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>24.313725</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2085">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>23.90619375</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>23.90619375</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2090">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>23.4986625</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>23.4986625</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2095">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>23.09113125</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>23.09113125</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2100">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>22.6836</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>22.6836</fuel-C-coef>
+				  </ctax-input>
+               </period>
+            </technology>
+         </location-info>
+         <location-info sector-name="elec_gas (CC CCS)" subsector-name="biogas (CC CCS)">
+            <technology name="biogas (CC CCS) (dry cooling)">
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>25.30928916</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>25.30928916</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2025">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>24.11770514</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>24.11770514</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2030">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>23.0371628</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>23.0371628</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2035">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>22.45977638</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>22.45977638</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2040">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>22.03297188</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>22.03297188</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2045">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>21.49294806</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>21.49294806</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2050">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>21.28505263</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>21.28505263</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2055">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.91691493</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.91691493</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2060">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.82450709</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.82450709</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2065">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.76657292</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.76657292</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2070">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.5469868</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.5469868</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2075">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.55542444</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.55542444</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2080">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.59415205</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.59415205</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2085">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.44272446</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.44272446</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2090">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.51171725</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.51171725</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2095">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.36308162</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.36308162</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2100">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.4610951</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.4610951</fuel-C-coef>
+				  </ctax-input>
+               </period>
+            </technology>
+            <technology name="biogas (CC CCS) (once through)">
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>24.0438247</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>24.0438247</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2025">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>22.91181989</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>22.91181989</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2030">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>21.88530466</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>21.88530466</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2035">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>21.33678756</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>21.33678756</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2040">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.93132328</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.93132328</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2045">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.41830065</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.41830065</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2050">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.2208</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.2208</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2055">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.87106918</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.87106918</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2060">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.78328173</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.78328173</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2065">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.72824427</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.72824427</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2070">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.51963746</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.51963746</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2075">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.52765321</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.52765321</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2080">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.56444444</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.56444444</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2085">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.42058824</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.42058824</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2090">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.48613139</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.48613139</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2095">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.34492754</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.34492754</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2100">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.43804035</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.43804035</fuel-C-coef>
+				  </ctax-input>
+               </period>
+            </technology>
+            <technology name="biogas (CC CCS) (recirculating)">
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>24.0438247</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>24.0438247</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2025">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>22.91181989</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>22.91181989</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2030">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>21.88530466</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>21.88530466</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2035">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>21.33678756</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>21.33678756</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2040">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.93132328</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.93132328</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2045">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.41830065</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.41830065</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2050">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.2208</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.2208</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2055">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.87106918</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.87106918</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2060">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.78328173</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.78328173</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2065">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.72824427</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.72824427</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2070">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.51963746</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.51963746</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2075">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.52765321</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.52765321</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2080">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.56444444</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.56444444</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2085">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.42058824</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.42058824</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2090">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.48613139</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.48613139</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2095">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.34492754</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.34492754</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2100">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.43804035</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.43804035</fuel-C-coef>
+				  </ctax-input>
+               </period>
+            </technology>
+            <technology name="biogas (CC CCS) (seawater)">
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>24.0438247</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>24.0438247</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2025">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>22.91181989</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>22.91181989</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2030">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>21.88530466</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>21.88530466</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2035">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>21.33678756</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>21.33678756</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2040">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.93132328</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.93132328</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2045">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.41830065</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.41830065</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2050">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>20.2208</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>20.2208</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2055">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.87106918</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.87106918</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2060">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.78328173</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.78328173</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2065">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.72824427</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.72824427</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2070">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.51963746</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.51963746</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2075">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.52765321</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.52765321</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2080">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.56444444</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.56444444</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2085">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.42058824</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.42058824</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2090">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.48613139</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.48613139</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2095">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.34492754</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.34492754</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2100">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>19.43804035</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>19.43804035</fuel-C-coef>
+				  </ctax-input>
+               </period>
+            </technology>
+         </location-info>
+         <location-info sector-name="elec_refined liquids (CC CCS)" subsector-name="refined bioliquids (CC CCS)">
+            <technology name="refined bioliquids (CC CCS) (dry cooling)">
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>37.55212442</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>37.55212442</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2025">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>35.13496613</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>35.13496613</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2030">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>33.10290652</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>33.10290652</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2035">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>31.93856527</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>31.93856527</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2040">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>31.08868061</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>31.08868061</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2045">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>30.15911873</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>30.15911873</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2050">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>29.71214444</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>29.71214444</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2055">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>29.10000834</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>29.10000834</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2060">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>28.92277423</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>28.92277423</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2065">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>28.79560865</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>28.79560865</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2070">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>28.40353531</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>28.40353531</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2075">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>28.41474945</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>28.41474945</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2080">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>28.42573099</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>28.42573099</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2085">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>28.17528403</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>28.17528403</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2090">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>28.27067669</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>28.27067669</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2095">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>28.06611318</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>28.06611318</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2100">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>28.16091954</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>28.16091954</fuel-C-coef>
+				  </ctax-input>
+               </period>
+            </technology>
+            <technology name="refined bioliquids (CC CCS) (once through)">
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>35.6745182</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>35.6745182</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2025">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>33.37821782</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>33.37821782</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2030">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>31.44776119</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>31.44776119</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2035">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>30.34163701</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>30.34163701</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2040">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>29.53424658</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>29.53424658</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2045">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>28.65116279</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>28.65116279</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2050">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>28.22653722</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>28.22653722</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2055">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>27.64500792</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>27.64500792</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2060">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>27.47663551</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>27.47663551</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2065">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>27.35582822</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>27.35582822</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2070">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.98335855</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.98335855</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2075">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.99401198</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.99401198</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2080">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>27.00444444</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>27.00444444</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2085">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.76651982</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.76651982</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2090">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.85714286</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.85714286</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2095">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.66280753</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.66280753</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2100">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.75287356</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.75287356</fuel-C-coef>
+				  </ctax-input>
+               </period>
+            </technology>
+            <technology name="refined bioliquids (CC CCS) (recirculating)">
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>35.6745182</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>35.6745182</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2025">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>33.37821782</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>33.37821782</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2030">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>31.44776119</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>31.44776119</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2035">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>30.34163701</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>30.34163701</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2040">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>29.53424658</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>29.53424658</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2045">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>28.65116279</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>28.65116279</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2050">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>28.22653722</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>28.22653722</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2055">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>27.64500792</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>27.64500792</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2060">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>27.47663551</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>27.47663551</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2065">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>27.35582822</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>27.35582822</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2070">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.98335855</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.98335855</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2075">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.99401198</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.99401198</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2080">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>27.00444444</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>27.00444444</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2085">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.76651982</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.76651982</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2090">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.85714286</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.85714286</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2095">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.66280753</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.66280753</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2100">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.75287356</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.75287356</fuel-C-coef>
+				  </ctax-input>
+               </period>
+            </technology>
+            <technology name="refined bioliquids (CC CCS) (seawater)">
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>35.6745182</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>35.6745182</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2025">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>33.37821782</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>33.37821782</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2030">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>31.44776119</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>31.44776119</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2035">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>30.34163701</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>30.34163701</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2040">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>29.53424658</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>29.53424658</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2045">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>28.65116279</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>28.65116279</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2050">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>28.22653722</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>28.22653722</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2055">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>27.64500792</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>27.64500792</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2060">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>27.47663551</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>27.47663551</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2065">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>27.35582822</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>27.35582822</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2070">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.98335855</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.98335855</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2075">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.99401198</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.99401198</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2080">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>27.00444444</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>27.00444444</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2085">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.76651982</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.76651982</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2090">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.85714286</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.85714286</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2095">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.66280753</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.66280753</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2100">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>26.75287356</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>26.75287356</fuel-C-coef>
+				  </ctax-input>
+               </period>
+            </technology>
+         </location-info>
+         <location-info sector-name="elec_biomass (conv CCS)" subsector-name="biomass (conv CCS)">
+            <technology name="biomass (conv CCS) (once through)">
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>85</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>85</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2025">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>76.96498054</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>76.96498054</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2030">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>70.64285714</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>70.64285714</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2035">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>66.7</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>66.7</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2040">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>64.05063291</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>64.05063291</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2045">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>61.33333333</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>61.33333333</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2050">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>59.85380117</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>59.85380117</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2055">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>57.98866856</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>57.98866856</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2060">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>57.18232044</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>57.18232044</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2065">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>56.56756757</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>56.56756757</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2070">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>55.51724138</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>55.51724138</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2075">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>55.24804178</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>55.24804178</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2080">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>54.98714653</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>54.98714653</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2085">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>54.2893401</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>54.2893401</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2090">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>54.18546366</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>54.18546366</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2095">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>53.64764268</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>53.64764268</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2100">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>53.68550369</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>53.68550369</fuel-C-coef>
+				  </ctax-input>
+               </period>
+            </technology>
+            <technology name="biomass (conv CCS) (seawater)">
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>85</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>85</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2025">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>76.96498054</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>76.96498054</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2030">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>70.64285714</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>70.64285714</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2035">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>66.7</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>66.7</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2040">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>64.05063291</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>64.05063291</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2045">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>61.33333333</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>61.33333333</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2050">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>59.85380117</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>59.85380117</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2055">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>57.98866856</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>57.98866856</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2060">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>57.18232044</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>57.18232044</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2065">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>56.56756757</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>56.56756757</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2070">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>55.51724138</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>55.51724138</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2075">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>55.24804178</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>55.24804178</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2080">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>54.98714653</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>54.98714653</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2085">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>54.2893401</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>54.2893401</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2090">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>54.18546366</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>54.18546366</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2095">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>53.64764268</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>53.64764268</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2100">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>53.68550369</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>53.68550369</fuel-C-coef>
+				  </ctax-input>
+               </period>
+            </technology>
+            <technology name="biomass (conv CCS) (recirculating)">
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>85</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>85</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2025">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>76.96498054</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>76.96498054</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2030">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>70.64285714</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>70.64285714</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2035">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>66.7</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>66.7</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2040">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>64.05063291</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>64.05063291</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2045">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>61.33333333</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>61.33333333</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2050">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>59.85380117</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>59.85380117</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2055">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>57.98866856</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>57.98866856</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2060">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>57.18232044</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>57.18232044</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2065">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>56.56756757</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>56.56756757</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2070">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>55.51724138</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>55.51724138</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2075">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>55.24804178</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>55.24804178</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2080">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>54.98714653</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>54.98714653</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2085">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>54.2893401</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>54.2893401</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2090">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>54.18546366</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>54.18546366</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2095">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>53.64764268</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>53.64764268</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2100">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>53.68550369</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>53.68550369</fuel-C-coef>
+				  </ctax-input>
+               </period>
+            </technology>
+            <technology name="biomass (conv CCS) (dry cooling)">
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>89.47368421</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>89.47368421</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2025">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>81.01576899</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>81.01576899</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2030">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>74.36090226</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>74.36090226</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2035">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>70.21052632</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>70.21052632</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2040">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>67.42171885</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>67.42171885</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2045">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>64.56140351</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>64.56140351</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2050">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>63.00400123</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>63.00400123</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2055">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>61.04070374</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>61.04070374</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2060">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>60.19191625</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>60.19191625</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2065">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>59.54480797</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>59.54480797</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2070">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>58.43920145</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>58.43920145</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2075">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>58.15583345</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>58.15583345</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2080">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>57.88120687</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>57.88120687</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2085">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>57.14667379</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>57.14667379</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2090">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>57.03733017</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>57.03733017</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2095">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>56.47120282</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>56.47120282</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2100">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>56.51105651</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>56.51105651</fuel-C-coef>
+				  </ctax-input>
+               </period>
+            </technology>
+		</location-info>
+		 <location-info sector-name="elec_biomass (IGCC CCS)" subsector-name="biomass (IGCC CCS)">
+			<technology name="biomass (IGCC CCS) (once through)">
+			   <period year="2015"><res-secondary-output name="BECCS"><output-ratio>0</output-ratio>   <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>0</fuel-C-coef>
+				  </ctax-input></period>
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>66.27118644</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>66.27118644</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2025">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>61.42857143</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>61.42857143</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2030">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>57.16763006</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>57.16763006</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2035">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>54.67213115</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>54.67213115</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2040">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>52.845953</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>52.845953</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2045">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>50.85427136</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>50.85427136</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2050">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>49.92682927</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>49.92682927</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2055">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>48.507109</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>48.507109</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2060">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>48.02784223</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>48.02784223</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2065">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>47.56818182</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>47.56818182</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2070">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>46.82326622</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>46.82326622</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2075">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>46.60792952</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>46.60792952</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2080">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>46.5</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>46.5</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2085">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>46</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>46</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2090">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>46.09808102</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>46.09808102</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2095">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>45.61181435</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>45.61181435</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2100">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>45.80712788</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>45.80712788</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			</technology>
+			<technology name="biomass (IGCC CCS) (seawater)">
+			   <period year="2015"><res-secondary-output name="BECCS"><output-ratio>0</output-ratio>   <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>0</fuel-C-coef>
+				  </ctax-input></period>
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>66.27118644</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>66.27118644</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2025">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>61.42857143</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>61.42857143</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2030">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>57.16763006</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>57.16763006</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2035">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>54.67213115</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>54.67213115</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2040">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>52.845953</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>52.845953</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2045">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>50.85427136</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>50.85427136</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2050">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>49.92682927</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>49.92682927</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2055">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>48.507109</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>48.507109</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2060">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>48.02784223</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>48.02784223</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2065">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>47.56818182</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>47.56818182</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2070">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>46.82326622</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>46.82326622</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2075">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>46.60792952</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>46.60792952</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2080">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>46.5</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>46.5</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2085">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>46</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>46</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2090">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>46.09808102</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>46.09808102</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2095">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>45.61181435</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>45.61181435</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2100">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>45.80712788</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>45.80712788</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			</technology>
+			<technology name="biomass (IGCC CCS) (recirculating)">
+			   <period year="2015"><res-secondary-output name="BECCS"><output-ratio>0</output-ratio>   <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>0</fuel-C-coef>
+				  </ctax-input></period>
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>66.27118644</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>66.27118644</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2025">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>61.42857143</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>61.42857143</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2030">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>57.16763006</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>57.16763006</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2035">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>54.67213115</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>54.67213115</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2040">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>52.845953</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>52.845953</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2045">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>50.85427136</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>50.85427136</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2050">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>49.92682927</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>49.92682927</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2055">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>48.507109</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>48.507109</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2060">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>48.02784223</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>48.02784223</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2065">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>47.56818182</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>47.56818182</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2070">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>46.82326622</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>46.82326622</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2075">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>46.60792952</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>46.60792952</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2080">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>46.5</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>46.5</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2085">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>46</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>46</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2090">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>46.09808102</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>46.09808102</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2095">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>45.61181435</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>45.61181435</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2100">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>45.80712788</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>45.80712788</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			</technology>
+			<technology name="biomass (IGCC CCS) (dry cooling)">
+			    <period year="2015">
+				  <res-secondary-output name="BECCS">
+					<output-ratio>0</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>0</fuel-C-coef>
+				  </ctax-input>
+				</period>
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>69.75914362</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>69.75914362</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2025">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>64.66165414</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>64.66165414</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2030">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>60.17645269</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>60.17645269</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2035">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>57.54961173</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>57.54961173</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2040">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>55.62731895</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>55.62731895</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2045">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>53.53081195</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>53.53081195</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2050">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>52.55455712</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>52.55455712</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2055">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>51.06011474</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>51.06011474</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2060">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>50.5556234</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>50.5556234</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2065">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>50.07177033</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>50.07177033</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2070">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>49.28764865</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>49.28764865</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2075">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>49.06097844</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>49.06097844</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2080">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>48.94736842</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>48.94736842</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2085">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>48.42105263</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>48.42105263</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2090">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>48.52429581</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>48.52429581</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2095">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>48.01243615</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>48.01243615</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			   <period year="2100">
+				  <res-secondary-output name="BECCS">
+					 <output-ratio>48.21802935</output-ratio>
+				     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>48.21802935</fuel-C-coef>
+				  </ctax-input>
+			   </period>
+			</technology>
+		 </location-info>
+		 <location-info sector-name="H2 central production" subsector-name="biomass">
+			<technology name="biomass to H2 CCS">
+				<period year="2020">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>46.40798</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>46.40798</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2025">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>45.89912</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>45.89912</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2030">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>46</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>46</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2035">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>45.50538</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>45.50538</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2040">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>45.021218</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>45.021218</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2045">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>45.03158</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>45.03158</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2050">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>45.03158</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>45.03158</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2055">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>44.10309</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>44.10309</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2060">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>44.21268</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>44.21268</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2065">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>43.76518219</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>43.76518219</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2070">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>43.50101</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>43.50101</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2075">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>43.32665</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>43.32665</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2080">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>43.06773</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>43.06773</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2085">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>42.89683</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>42.89683</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2090">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>42.643</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>42.643</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2095">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>42.47544</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>42.47544</fuel-C-coef>
+				  </ctax-input>
+               </period>
+               <period year="2100">
+				  <res-secondary-output name="BECCS">
+                     <output-ratio>42.47544</output-ratio>
+                     <pMultiplier>1</pMultiplier>
+				  </res-secondary-output>
+				  <ctax-input name="BECCS_countersubsidy">
+					 <fuel-C-coef>42.47544</fuel-C-coef>
+				  </ctax-input>
+               </period>
+			</technology>
+		 </location-info>
+      </global-technology-database>
+   </world>
+</scenario>

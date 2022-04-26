@@ -1,0 +1,2799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="USA">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>USA</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Africa_Eastern">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Africa_Eastern</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Africa_Northern">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Africa_Northern</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Africa_Southern">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Africa_Southern</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Africa_Western">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Africa_Western</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Australia_NZ">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Australia_NZ</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Brazil">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Brazil</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Canada">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Canada</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Central America and Caribbean">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Central America and Caribbean</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Central Asia">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Central Asia</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="China">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>China</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="EU-12">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>EU-12</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="EU-15">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>EU-15</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Europe_Eastern">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Europe_Eastern</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Europe_Non_EU">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Europe_Non_EU</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="European Free Trade Association">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>European Free Trade Association</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="India">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>India</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Indonesia">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Indonesia</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Japan">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Japan</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Mexico">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Mexico</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Middle East">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Middle East</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Pakistan">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Pakistan</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Russia">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Russia</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="South Africa">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>South Africa</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="South America_Northern">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>South America_Northern</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="South America_Southern">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>South America_Southern</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="South Asia">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>South Asia</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="South Korea">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>South Korea</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Southeast Asia">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Southeast Asia</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Taiwan">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Taiwan</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Argentina">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Argentina</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+      <region name="Colombia">
+         <resource name="waste_heat">
+            <output-unit>EJ</output-unit>
+            <price-unit>1975$/GJ</price-unit>
+            <market>Colombia</market>
+            <price year="1975">0.01</price>
+            <price year="1990">0.01</price>
+            <price year="2005">0.01</price>
+            <price year="2010">0.01</price>
+         </resource>
+         
+      </region>
+	  <global-technology-database>
+            <location-info sector-name="electricity" subsector-name="biomass">
+                <technology name="biomass (IGCC)">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.21">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+                <technology name="biomass (IGCC CCS)">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+                <technology name="biomass (conv pul)">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+                <technology name="biomass (conv pul CCS)">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+            </location-info>
+            <location-info sector-name="electricity" subsector-name="coal">
+                <technology name="coal (IGCC)">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.21">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+                <technology name="coal (IGCC CCS)">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+                <technology name="coal (conv pul)">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+                <technology name="coal (conv pul CCS)">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.093</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+            </location-info>
+            <location-info sector-name="electricity" subsector-name="gas">
+                <technology name="gas (CC)">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+                <technology name="gas (CC CCS)">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.073</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+                <technology name="gas (steam/CT)">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.057</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.057</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.057</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.057</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.057</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.057</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.057</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.057</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.057</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.057</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.057</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.057</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.057</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.057</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.057</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.057</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.057</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+            </location-info>
+            <location-info sector-name="electricity" subsector-name="nuclear">
+                <technology name="Gen_II_LWR">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+						<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+                <technology name="Gen_III">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+						<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.05</output-ratio>
+							<fraction-produced price="0.21">0</fraction-produced>
+							<fraction-produced price="0.84">1</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+            </location-info>
+            <location-info sector-name="industrial energy use" subsector-name="biomass">
+                <technology name="biomass">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+                <technology name="biomass cogen">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+            </location-info>
+            <location-info sector-name="industrial energy use" subsector-name="coal">
+                <technology name="coal">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+                <technology name="coal cogen">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+            </location-info>
+            <location-info sector-name="industrial energy use" subsector-name="gas">
+                <technology name="gas">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.04</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.04</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.04</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.04</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.04</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.04</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.04</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.04</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.04</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.04</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.04</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.04</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.04</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.04</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.04</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.04</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+                <technology name="gas cogen">
+                    <period year="1975"></period>
+                    <period year="1990"></period>
+                    <period year="2005"></period>
+                    <period year="2010"></period>
+                    <period year="2015"></period>
+                    <period year="2020">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2025">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2030">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2035">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2040">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2045">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2050">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2055">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2060">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2065">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2070">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2075">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2080">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2085">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2090">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2095">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2100">
+						<fractional-secondary-output name="waste_heat">
+							<output-ratio>0.005</output-ratio>
+							<fraction-produced price="0.01">0</fraction-produced>
+							<fraction-produced price="0.42">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                </technology>
+            </location-info>
+	  </global-technology-database>
+   </world>
+</scenario>

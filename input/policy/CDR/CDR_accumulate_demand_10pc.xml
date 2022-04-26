@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <global-technology-database>
+            <location-info sector-name="CDR_regional" subsector-name="unsatisfiedDemand">
+                <technology name="unsatisfied CDR demand">
+					<!-- We add one unit of demand to the unsatisfiedCDRdemand
+						 tax market for each unit of output from this technology.
+						 Since GCAM *subtracts* secondary outputs from demand,
+						 we set the output ratio to -1 rather than 1. -->
+                    <period year="1975">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>0</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="1990">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>0</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2005">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>0</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2010">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>0</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2015">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>0</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2020">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>-1</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2025">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>-1</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2030">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>-1</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2035">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>-1</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2040">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>-1</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2045">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>-1</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2050">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>-1</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2055">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>-1</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2060">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>-1</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2065">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>-1</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2070">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>-1</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2075">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>-1</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2080">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>-1</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2085">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>-1</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2090">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>-1</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2095">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>-1</output-ratio>
+						</secondary-output>
+                    </period>
+                    <period year="2100">
+                        <secondary-output name="unsatisfiedCDRdemand">
+							<output-ratio>-1</output-ratio>
+						</secondary-output>
+                    </period>
+                </technology>
+            </location-info>
+        </global-technology-database>
+        <region name="USA">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>USA</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Africa_Eastern">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Africa_Eastern</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Africa_Northern">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Africa_Northern</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Africa_Southern">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Africa_Southern</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Africa_Western">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Africa_Western</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Australia_NZ">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Australia_NZ</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Brazil">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Brazil</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Canada">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Canada</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Central America and Caribbean">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Central America and Caribbean</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Central Asia">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Central Asia</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="China">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>China</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="EU-12">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>EU-12</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="EU-15">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>EU-15</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Europe_Eastern">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Europe_Eastern</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Europe_Non_EU">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Europe_Non_EU</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="European Free Trade Association">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>European Free Trade Association</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="India">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>India</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Indonesia">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Indonesia</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Japan">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Japan</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Mexico">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Mexico</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Middle East">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Middle East</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Pakistan">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Pakistan</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Russia">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Russia</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="South Africa">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>South Africa</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="South America_Northern">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>South America_Northern</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="South America_Southern">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>South America_Southern</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="South Asia">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>South Asia</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="South Korea">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>South Korea</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Southeast Asia">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Southeast Asia</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Taiwan">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Taiwan</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Argentina">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Argentina</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+        <region name="Colombia">
+			<CDR-final-demand name="CDR">
+				<accumulated-demand-source name="accumulated">
+					<market-name>unsatisfiedCDRdemand</market-name>
+					<fraction-to-satisfy fillout="1" year="1975">0.1</fraction-to-satisfy>
+				</accumulated-demand-source>
+			</CDR-final-demand>
+            <ghgpolicy name="unsatisfiedCDRdemand">
+                <market>Colombia</market>
+				<fixedTax year="1975" fillout="1">0</fixedTax>
+            </ghgpolicy>
+        </region>
+    </world>
+</scenario>

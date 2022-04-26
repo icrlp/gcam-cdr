@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+		<region name="USA">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness><!-- optional; default value: 0.005  -->
+					<midpoint>500</midpoint><!-- optional; default value: 500 -->
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Africa_Eastern">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Africa_Northern">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Africa_Southern">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Africa_Western">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Argentina">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Australia_NZ">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Brazil">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Canada">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Central America and Caribbean">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Central Asia">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="China">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Colombia">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="EU-12">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="EU-15">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Europe_Eastern">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Europe_Non_EU">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="European Free Trade Association">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="India">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Indonesia">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Japan">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Mexico">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Middle East">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Pakistan">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Russia">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="South Africa">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="South America_Northern">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="South America_Southern">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="South Asia">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="South Korea">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Southeast Asia">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Taiwan">
+			<CDR-final-demand name="CDR">
+				<elastic-demand-source>
+					<max-demand>218.75</max-demand>
+					<steepness>0.005</steepness>
+					<midpoint>500</midpoint>
+				</elastic-demand-source>
+			</CDR-final-demand>
+		</region>
+	</world>
+</scenario>

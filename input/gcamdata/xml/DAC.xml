@@ -1,0 +1,1727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="USA">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Africa_Eastern">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Africa_Northern">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Africa_Southern">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Africa_Western">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Australia_NZ">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Brazil">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Canada">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Central America and Caribbean">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Central Asia">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="China">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="EU-12">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="EU-15">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Europe_Eastern">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Europe_Non_EU">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="European Free Trade Association">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="India">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Indonesia">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Japan">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Mexico">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Middle East">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Pakistan">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Russia">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South Africa">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South America_Northern">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South America_Southern">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South Asia">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South Korea">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Southeast Asia">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Taiwan">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Argentina">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Colombia">
+         <supplysector name="DAC">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="DAC">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <stub-technology name="DAC_solvent (oxy CCS)" />
+			   <stub-technology name="DAC_sorbent (oxy CCS)" />
+            </subsector>
+         </supplysector>
+      </region>
+      <global-technology-database>
+         <location-info sector-name="DAC" subsector-name="DAC">
+            <technology name="DAC_solvent (oxy CCS)">
+               <period year="1975">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+               </period>
+               <period year="1990">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+               </period>
+               <period year="2005">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+               </period>
+               <period year="2010">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+               </period>
+               <period year="2015">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2020">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2025">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2030">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2035">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2040">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2045">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2050">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2055">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2060">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2065">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2070">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2075">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2080">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2085">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2090">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2095">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2100">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="wholesale gas">
+                     <coefficient>0.019066667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.00484</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="solvent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+            </technology>
+           <technology name="DAC_sorbent (oxy CCS)">
+               <period year="1975">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+               </period>
+               <period year="1990">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+               </period>
+               <period year="2005">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+               </period>
+               <period year="2010">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+               </period>
+               <period year="2015">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2020">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2025">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2030">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2035">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2040">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2045">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2050">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2055">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2060">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2065">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2070">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2075">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2080">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2085">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2090">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2095">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2100">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="waste_heat">
+                     <coefficient>0.015766667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>2.57E-03</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="sorbent">
+                     <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <CDR-capture-component>
+                     <remove-fraction>1</remove-fraction>
+                     <storage-market>carbon-storage</storage-market>
+                  </CDR-capture-component>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>20</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+            </technology>
+         </location-info>
+      </global-technology-database>
+   </world>
+</scenario>

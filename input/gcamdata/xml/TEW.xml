@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="USA">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Africa_Eastern">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Africa_Northern">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Africa_Southern">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Africa_Western">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Australia_NZ">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Brazil">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Canada">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Central America and Caribbean">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Central Asia">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="China">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="EU-12">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="EU-15">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Europe_Eastern">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Europe_Non_EU">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="European Free Trade Association">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="India">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Indonesia">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Japan">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Mexico">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Middle East">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Pakistan">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Russia">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South Africa">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South America_Northern">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South America_Southern">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South Asia">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South Korea">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Southeast Asia">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Taiwan">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Argentina">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Colombia">
+         <supplysector name="TEW">
+            <relative-cost-logit>
+               <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+            </relative-cost-logit>
+            <output-unit>Mt</output-unit>
+            <input-unit>EJ or Mt or thous sq km</input-unit>
+            <price-unit>1975$/kg</price-unit>
+            <keyword final-energy="CDR"/>
+            <subsector name="TEW">
+               <relative-cost-logit>
+                  <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+               </relative-cost-logit>
+               <share-weight fillout="1" year="1975">1</share-weight>
+               <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                  <interpolation-function name="fixed"/>
+               </interpolation-rule>
+               <stub-technology name="TEW" />
+            </subsector>
+         </supplysector>
+      </region>
+      <global-technology-database>
+         <location-info sector-name="TEW" subsector-name="TEW">
+            <technology name="TEW">
+               <period year="1975">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+               </period>
+               <period year="1990"> 
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+               </period>
+               <period year="2005">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+               </period>
+               <period year="2010">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+               </period>
+               <period year="2015">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>15</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2020">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>15</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2025">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>15</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2030">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>15</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2035">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>15</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2040">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>15</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2045">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>15</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2050">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>15</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2055">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>15</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2060">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>15</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2065">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>15</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2070">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>15</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2075">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>15</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2080">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>15</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2085">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>15</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2090">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>15</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2095">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>15</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+               <period year="2100">
+                  <share-weight>1</share-weight>
+                  <CO2 name="CO2"/>
+                  <minicam-energy-input name="elect_td_ind">
+                     <coefficient>0.005866667</coefficient>
+                  </minicam-energy-input>
+                  <minicam-energy-input name="cropland_TEW">
+					<coefficient>2</coefficient>
+				</minicam-energy-input>
+				<minicam-energy-input name="silicate">
+				   <coefficient>1</coefficient>
+                  </minicam-energy-input>
+                  <minicam-non-energy-input name="non-energy">
+                     <input-cost>0</input-cost>
+                  </minicam-non-energy-input>
+                  <profit-shutdown-decider name="profit">
+                     <median-shutdown-point>-0.1</median-shutdown-point>
+                     <steepness>6</steepness>
+                  </profit-shutdown-decider>
+                  <lifetime>-1</lifetime>
+                  <s-curve-shutdown-decider name="s-curve">
+                     <steepness>0.1</steepness>
+                     <half-life>15</half-life>
+                  </s-curve-shutdown-decider>
+               </period>
+            </technology>
+         </location-info>
+      </global-technology-database>
+   </world>
+</scenario>

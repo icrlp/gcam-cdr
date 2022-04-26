@@ -1,0 +1,11 @@
+<scenario>
+	<world>
+		<region name="USA">
+			<CDR-final-demand name="CDR">
+				<demand-source name="exogenous">
+					<demand year="2025" fillout="1">5000</demand>
+				</demand-source>
+			</CDR-final-demand>
+		</region>
+	</world>
+</scenario>

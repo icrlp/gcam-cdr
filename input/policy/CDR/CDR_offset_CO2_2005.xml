@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+		<region name="USA">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Africa_Eastern">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Africa_Northern">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Africa_Southern">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Africa_Western">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Argentina">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Australia_NZ">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Brazil">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Canada">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Central America and Caribbean">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Central Asia">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="China">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Colombia">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="EU-12">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="EU-15">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Europe_Eastern">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Europe_Non_EU">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="European Free Trade Association">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="India">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Indonesia">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Japan">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Mexico">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Middle East">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Pakistan">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Russia">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="South Africa">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="South America_Northern">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="South America_Southern">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="South Asia">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="South Korea">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Southeast Asia">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+		<region name="Taiwan">
+			<CDR-final-demand name="CDR">
+				<offset-demand-source name="offset">
+					<offset-fraction year="2005" fillout="1">1</offset-fraction>
+					<market-name>CO2</market-name>
+				</offset-demand-source>
+			</CDR-final-demand>
+		</region>
+      <global-technology-database>
+		 <location-info sector-name="CDR_regional" subsector-name="CDR">
+			<technology name="BECCS">
+				<!-- Biomass that ended up being used for
+				       BECCS removed carbon from the atmosphere,
+					   reducing demand in the offset market.
+					   BECCS technologies prevented some of that
+					   carbon from being re-emitted, so that
+					   CO2 is never added back into the offset
+					   market. We want to account for BECCS in the
+					   CDR sector, not in the offset market, so
+					   we add demand back into the offset market
+					   with a negative output-ratio on this
+					   secondary output. --> 
+				<period year="1975">
+				  <share-weight>0</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+				</period>
+				<period year="1990">
+				  <share-weight>0</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+				</period>
+				<period year="2005">
+				  <share-weight>0</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+				</period>
+				<period year="2010">
+				  <share-weight>0</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+				</period>
+				<period year="2015">
+				  <share-weight>0</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+				</period>
+				<period year="2020">
+				  <share-weight>0</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+               </period>
+               <period year="2025">
+				  <share-weight>0.5</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+               </period>
+               <period year="2030">
+				  <share-weight>1</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+               </period>
+               <period year="2035">
+				  <share-weight>1</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+               </period>
+               <period year="2040">
+				  <share-weight>1</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+               </period>
+               <period year="2045">
+				  <share-weight>1</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+               </period>
+               <period year="2050">
+				  <share-weight>1</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+               </period>
+               <period year="2055">
+				  <share-weight>1</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+               </period>
+               <period year="2060">
+				  <share-weight>1</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+               </period>
+               <period year="2065">
+				  <share-weight>1</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+               </period>
+               <period year="2070">
+				  <share-weight>1</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+               </period>
+               <period year="2075">
+				  <share-weight>1</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+               </period>
+               <period year="2080">
+				  <share-weight>1</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+               </period>
+               <period year="2085">
+				  <share-weight>1</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+               </period>
+               <period year="2090">
+				  <share-weight>1</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+               </period>
+               <period year="2095">
+				  <share-weight>1</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+               </period>
+               <period year="2100">
+				  <share-weight>1</share-weight>
+				  <res-secondary-output name="BECCS">
+					<output-ratio>-1</output-ratio>
+				    <pMultiplier>0</pMultiplier>
+				  </res-secondary-output>
+               </period>
+			</technology>
+		 </location-info>
+      </global-technology-database>
+	</world>
+</scenario>

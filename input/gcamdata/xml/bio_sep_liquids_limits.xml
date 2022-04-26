@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <global-technology-database>
+		
+		 <!-- Turn off bioliquids and biogas for industrial feedstock production. -->
+		 <location-info sector-name="industrial feedstocks" subsector-name="refined liquids">
+			<technology name="refined bioliquids">
+				<period year="1975"><share-weight>0</share-weight></period>
+				<period year="1990"><share-weight>0</share-weight></period>
+				<period year="2005"><share-weight>0</share-weight></period>
+				<period year="2010"><share-weight>0</share-weight></period>
+				<period year="2015"><share-weight>0</share-weight></period>
+				<period year="2020"><share-weight>0</share-weight></period>
+				<period year="2025"><share-weight>0</share-weight></period>
+				<period year="2030"><share-weight>0</share-weight></period>
+				<period year="2035"><share-weight>0</share-weight></period>
+				<period year="2040"><share-weight>0</share-weight></period>
+				<period year="2045"><share-weight>0</share-weight></period>
+				<period year="2050"><share-weight>0</share-weight></period>
+				<period year="2055"><share-weight>0</share-weight></period>
+				<period year="2060"><share-weight>0</share-weight></period>
+				<period year="2065"><share-weight>0</share-weight></period>
+				<period year="2070"><share-weight>0</share-weight></period>
+				<period year="2075"><share-weight>0</share-weight></period>
+				<period year="2080"><share-weight>0</share-weight></period>
+				<period year="2085"><share-weight>0</share-weight></period>
+				<period year="2090"><share-weight>0</share-weight></period>
+				<period year="2095"><share-weight>0</share-weight></period>
+				<period year="2100"><share-weight>0</share-weight></period>
+			</technology>
+		 </location-info>
+		 <location-info sector-name="industrial feedstocks" subsector-name="gas">
+			<technology name="biogas">
+				<period year="1975"><share-weight>0</share-weight></period>
+				<period year="1990"><share-weight>0</share-weight></period>
+				<period year="2005"><share-weight>0</share-weight></period>
+				<period year="2010"><share-weight>0</share-weight></period>
+				<period year="2015"><share-weight>0</share-weight></period>
+				<period year="2020"><share-weight>0</share-weight></period>
+				<period year="2025"><share-weight>0</share-weight></period>
+				<period year="2030"><share-weight>0</share-weight></period>
+				<period year="2035"><share-weight>0</share-weight></period>
+				<period year="2040"><share-weight>0</share-weight></period>
+				<period year="2045"><share-weight>0</share-weight></period>
+				<period year="2050"><share-weight>0</share-weight></period>
+				<period year="2055"><share-weight>0</share-weight></period>
+				<period year="2060"><share-weight>0</share-weight></period>
+				<period year="2065"><share-weight>0</share-weight></period>
+				<period year="2070"><share-weight>0</share-weight></period>
+				<period year="2075"><share-weight>0</share-weight></period>
+				<period year="2080"><share-weight>0</share-weight></period>
+				<period year="2085"><share-weight>0</share-weight></period>
+				<period year="2090"><share-weight>0</share-weight></period>
+				<period year="2095"><share-weight>0</share-weight></period>
+				<period year="2100"><share-weight>0</share-weight></period>
+			</technology>
+			
+		 </location-info>
+		</global-technology-database>
+		
+		<!-- Turn off bioliquids in refined liquids electricity production -->
+        <region name="USA">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Africa_Eastern">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Africa_Northern">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Africa_Southern">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Africa_Western">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Australia_NZ">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Brazil">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Canada">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Central America and Caribbean">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Central Asia">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="China">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="EU-12">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="EU-15">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Europe_Eastern">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Europe_Non_EU">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="European Free Trade Association">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="India">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Indonesia">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Japan">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Mexico">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Middle East">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Pakistan">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Russia">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="South Africa">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="South America_Northern">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="South America_Southern">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="South Asia">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="South Korea">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Southeast Asia">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Taiwan">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Argentina">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+        <region name="Colombia">
+        	<pass-through-sector name="elec_refined liquids (steam/CT)">
+				<subsector name="refined bioliquids (steam/CT)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC)">
+				<subsector name="refined bioliquids (CC)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+			<pass-through-sector name="elec_refined liquids (CC CCS)">
+				<subsector name="refined bioliquids (CC CCS)">
+					<share-weight fillout="1" year="2020">0</share-weight>
+				</subsector>
+			</pass-through-sector>
+		</region>
+    </world>
+</scenario>

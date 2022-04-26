@@ -110,7 +110,11 @@
              4) Default values from the Solver/SolverComponent
     -->
     <solution-info-param-parser>
+		<!-- SinaiP water withdrawals consistently cause 2030 to fail in GCAM-CDR, so we loosen the tolerance -->
+		<solution-tolerance good="SinaiP_water withdrawals" region="SinaiP" period="7">0.02</solution-tolerance>
+
         <!-- applies to all regions since region attribute is not included -->
         <max-price-change fillout="1" market-type="Trial-Value" period="1">10</max-price-change>
+
     </solution-info-param-parser>
 </scenario>

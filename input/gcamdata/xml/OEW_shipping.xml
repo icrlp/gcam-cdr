@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <global-technology-database>
+            <location-info sector-name="trn_shipping_intl" subsector-name="International Ship">
+                <tranTechnology name="Liquids">
+					<period year="2020">
+					  <fractional-secondary-output name="OEW-shipping">
+						 <!-- This creates a supply curve for OEW-shipping,
+							  with prices measured as a fraction of the cost
+							  of the reference good (trn_shipping_intl) and
+							  fraction-produced measured as a percent of
+							  total service output of trn_shipping_intl.
+							  
+							  For example, the default settings are that
+							  the supply of OEW-shipping is 1% of the supply
+							  of trn_shipping_intl when the price of OEW-shipping
+							  equals the price of trn_shipping_intl. 
+							  
+							  The exact shape of this supply curve is
+							  highly uncertain. The effective top of the 
+							  supply curve, at 13% output, comes from
+							  Caserini et al. (2021).-->
+						 <fraction-produced price="0">0</fraction-produced>
+						 <fraction-produced price="0.00769">0</fraction-produced>
+						 <fraction-produced price="0.0769">0.1538</fraction-produced>
+						 <fraction-produced price="1">1</fraction-produced>
+						 <fraction-produced price="100">1.1</fraction-produced>
+						 <reference-good>trn_shipping_intl</reference-good>
+						 <output-ratio>0.13</output-ratio>
+					  </fractional-secondary-output>
+					</period>
+					<period year="2025">
+					  <fractional-secondary-output name="OEW-shipping">
+						 <fraction-produced price="0">0</fraction-produced>
+						 <fraction-produced price="0.00769">0</fraction-produced>
+						 <fraction-produced price="0.0769">0.1538</fraction-produced>
+						 <fraction-produced price="1">1</fraction-produced>
+						 <fraction-produced price="100">1.1</fraction-produced>
+						 <reference-good>trn_shipping_intl</reference-good>
+						 <output-ratio>0.13</output-ratio>
+					  </fractional-secondary-output>
+					</period>
+					<period year="2030">
+					  <fractional-secondary-output name="OEW-shipping">
+						 <fraction-produced price="0">0</fraction-produced>
+						 <fraction-produced price="0.00769">0</fraction-produced>
+						 <fraction-produced price="0.0769">0.1538</fraction-produced>
+						 <fraction-produced price="1">1</fraction-produced>
+						 <fraction-produced price="100">1.1</fraction-produced>
+						 <reference-good>trn_shipping_intl</reference-good>
+						 <output-ratio>0.13</output-ratio>
+					  </fractional-secondary-output>
+					</period>
+					<period year="2035">
+					  <fractional-secondary-output name="OEW-shipping">
+						 <fraction-produced price="0">0</fraction-produced>
+						 <fraction-produced price="0.00769">0</fraction-produced>
+						 <fraction-produced price="0.0769">0.1538</fraction-produced>
+						 <fraction-produced price="1">1</fraction-produced>
+						 <fraction-produced price="100">1.1</fraction-produced>
+						 <reference-good>trn_shipping_intl</reference-good>
+						 <output-ratio>0.13</output-ratio>
+					  </fractional-secondary-output>
+					</period>
+					<period year="2040">
+					  <fractional-secondary-output name="OEW-shipping">
+						 <fraction-produced price="0">0</fraction-produced>
+						 <fraction-produced price="0.00769">0</fraction-produced>
+						 <fraction-produced price="0.0769">0.1538</fraction-produced>
+						 <fraction-produced price="1">1</fraction-produced>
+						 <fraction-produced price="100">1.1</fraction-produced>
+						 <reference-good>trn_shipping_intl</reference-good>
+						 <output-ratio>0.13</output-ratio>
+					  </fractional-secondary-output>
+					</period>
+					<period year="2045">
+					  <fractional-secondary-output name="OEW-shipping">
+						 <fraction-produced price="0">0</fraction-produced>
+						 <fraction-produced price="0.00769">0</fraction-produced>
+						 <fraction-produced price="0.0769">0.1538</fraction-produced>
+						 <fraction-produced price="1">1</fraction-produced>
+						 <fraction-produced price="100">1.1</fraction-produced>
+						 <reference-good>trn_shipping_intl</reference-good>
+						 <output-ratio>0.13</output-ratio>
+					  </fractional-secondary-output>
+					</period>
+					<period year="2050">
+					  <fractional-secondary-output name="OEW-shipping">
+						 <fraction-produced price="0">0</fraction-produced>
+						 <fraction-produced price="0.00769">0</fraction-produced>
+						 <fraction-produced price="0.0769">0.1538</fraction-produced>
+						 <fraction-produced price="1">1</fraction-produced>
+						 <fraction-produced price="100">1.1</fraction-produced>
+						 <reference-good>trn_shipping_intl</reference-good>
+						 <output-ratio>0.13</output-ratio>
+					  </fractional-secondary-output>
+					</period>
+					<period year="2055">
+					  <fractional-secondary-output name="OEW-shipping">
+						 <fraction-produced price="0">0</fraction-produced>
+						 <fraction-produced price="0.00769">0</fraction-produced>
+						 <fraction-produced price="0.0769">0.1538</fraction-produced>
+						 <fraction-produced price="1">1</fraction-produced>
+						 <fraction-produced price="100">1.1</fraction-produced>
+						 <reference-good>trn_shipping_intl</reference-good>
+						 <output-ratio>0.13</output-ratio>
+					  </fractional-secondary-output>
+					</period>
+					<period year="2060">
+					  <fractional-secondary-output name="OEW-shipping">
+						 <fraction-produced price="0">0</fraction-produced>
+						 <fraction-produced price="0.00769">0</fraction-produced>
+						 <fraction-produced price="0.0769">0.1538</fraction-produced>
+						 <fraction-produced price="1">1</fraction-produced>
+						 <fraction-produced price="100">1.1</fraction-produced>
+						 <reference-good>trn_shipping_intl</reference-good>
+						 <output-ratio>0.13</output-ratio>
+					  </fractional-secondary-output>
+					</period>
+					<period year="2065">
+					  <fractional-secondary-output name="OEW-shipping">
+						 <fraction-produced price="0">0</fraction-produced>
+						 <fraction-produced price="0.00769">0</fraction-produced>
+						 <fraction-produced price="0.0769">0.1538</fraction-produced>
+						 <fraction-produced price="1">1</fraction-produced>
+						 <fraction-produced price="100">1.1</fraction-produced>
+						 <reference-good>trn_shipping_intl</reference-good>
+						 <output-ratio>0.13</output-ratio>
+					  </fractional-secondary-output>
+					</period>
+					<period year="2070">
+					  <fractional-secondary-output name="OEW-shipping">
+						 <fraction-produced price="0">0</fraction-produced>
+						 <fraction-produced price="0.00769">0</fraction-produced>
+						 <fraction-produced price="0.0769">0.1538</fraction-produced>
+						 <fraction-produced price="1">1</fraction-produced>
+						 <fraction-produced price="100">1.1</fraction-produced>
+						 <reference-good>trn_shipping_intl</reference-good>
+						 <output-ratio>0.13</output-ratio>
+					  </fractional-secondary-output>
+					</period>
+					<period year="2075">
+					  <fractional-secondary-output name="OEW-shipping">
+						 <fraction-produced price="0">0</fraction-produced>
+						 <fraction-produced price="0.00769">0</fraction-produced>
+						 <fraction-produced price="0.0769">0.1538</fraction-produced>
+						 <fraction-produced price="1">1</fraction-produced>
+						 <fraction-produced price="100">1.1</fraction-produced>
+						 <reference-good>trn_shipping_intl</reference-good>
+						 <output-ratio>0.13</output-ratio>
+					  </fractional-secondary-output>
+					</period>
+					<period year="2080">
+					  <fractional-secondary-output name="OEW-shipping">
+						 <fraction-produced price="0">0</fraction-produced>
+						 <fraction-produced price="0.00769">0</fraction-produced>
+						 <fraction-produced price="0.0769">0.1538</fraction-produced>
+						 <fraction-produced price="1">1</fraction-produced>
+						 <fraction-produced price="100">1.1</fraction-produced>
+						 <reference-good>trn_shipping_intl</reference-good>
+						 <output-ratio>0.13</output-ratio>
+					  </fractional-secondary-output>
+					</period>
+					<period year="2085">
+					  <fractional-secondary-output name="OEW-shipping">
+						 <fraction-produced price="0">0</fraction-produced>
+						 <fraction-produced price="0.00769">0</fraction-produced>
+						 <fraction-produced price="0.0769">0.1538</fraction-produced>
+						 <fraction-produced price="1">1</fraction-produced>
+						 <fraction-produced price="100">1.1</fraction-produced>
+						 <reference-good>trn_shipping_intl</reference-good>
+						 <output-ratio>0.13</output-ratio>
+					  </fractional-secondary-output>
+					</period>
+					<period year="2090">
+					  <fractional-secondary-output name="OEW-shipping">
+						 <fraction-produced price="0">0</fraction-produced>
+						 <fraction-produced price="0.00769">0</fraction-produced>
+						 <fraction-produced price="0.0769">0.1538</fraction-produced>
+						 <fraction-produced price="1">1</fraction-produced>
+						 <fraction-produced price="100">1.1</fraction-produced>
+						 <reference-good>trn_shipping_intl</reference-good>
+						 <output-ratio>0.13</output-ratio>
+					  </fractional-secondary-output>
+					</period>
+					<period year="2095">
+					  <fractional-secondary-output name="OEW-shipping">
+						 <fraction-produced price="0">0</fraction-produced>
+						 <fraction-produced price="0.00769">0</fraction-produced>
+						 <fraction-produced price="0.0769">0.1538</fraction-produced>
+						 <fraction-produced price="1">1</fraction-produced>
+						 <fraction-produced price="100">1.1</fraction-produced>
+						 <reference-good>trn_shipping_intl</reference-good>
+						 <output-ratio>0.13</output-ratio>
+					  </fractional-secondary-output>
+					</period>
+					<period year="2100">
+					  <fractional-secondary-output name="OEW-shipping">
+						 <fraction-produced price="0">0</fraction-produced>
+						 <fraction-produced price="0.00769">0</fraction-produced>
+						 <fraction-produced price="0.0769">0.1538</fraction-produced>
+						 <fraction-produced price="1">1</fraction-produced>
+						 <fraction-produced price="100">1.1</fraction-produced>
+						 <reference-good>trn_shipping_intl</reference-good>
+						 <output-ratio>0.13</output-ratio>
+					  </fractional-secondary-output>
+					</period>
+                </tranTechnology>
+            </location-info>
+            <location-info sector-name="OEW" subsector-name="lime">
+                <technology name="ocean liming">
+                    <period year="1975">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="1990">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2005">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2010">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2015">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2020">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2025">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2030">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2035">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2040">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2045">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2050">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2055">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2060">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2065">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2070">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2075">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2080">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2085">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2090">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2095">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                    <period year="2100">
+                        <minicam-energy-input name="OEW-shipping">
+							<coefficient>23824.37</coefficient>
+							<price-unit-conversion>0.00041</price-unit-conversion><!-- 1990$/metric ton to 1975$/kg -->
+						</minicam-energy-input>
+                    </period>
+                </technology>
+			</location-info>
+        </global-technology-database>
+        <region name="USA">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Africa_Eastern">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Africa_Northern">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Africa_Southern">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Africa_Western">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Australia_NZ">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Brazil">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Canada">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Central America and Caribbean">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Central Asia">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="China">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="EU-12">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="EU-15">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Europe_Eastern">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Europe_Non_EU">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="European Free Trade Association">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="India">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Indonesia">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Japan">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Mexico">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Middle East">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Pakistan">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Russia">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="South Africa">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="South America_Northern">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="South America_Southern">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="South Asia">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="South Korea">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Southeast Asia">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Taiwan">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Argentina">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+        <region name="Colombia">
+            <resource name="OEW-shipping">
+                <market>global</market>
+                <price-unit>1990$/ton-km</price-unit>
+                <output-unit>million ton-km</output-unit>
+                <price year="1975">0.00041</price>
+                <price year="1990">0.00041</price>
+                <price year="2005">0.00041</price>
+                <price year="2010">0.00041</price>
+                <price year="2015">0.00041</price>
+            </resource>
+        </region>
+    </world>
+</scenario>

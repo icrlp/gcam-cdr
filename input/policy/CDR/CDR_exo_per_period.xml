@@ -1,0 +1,26 @@
+<scenario>
+	<world>
+		<region name="USA">
+			<CDR-final-demand name="CDR">
+				<demand-source name="exogenous">
+					<demand year="2025">200</demand>
+					<demand year="2030">400</demand>
+					<demand year="2035">800</demand>
+					<demand year="2040">1600</demand>
+					<demand year="2045">3200</demand>
+					<demand year="2050">6400</demand>
+					<demand year="2055">6000</demand>
+					<demand year="2060">5600</demand>
+					<demand year="2065">5200</demand>
+					<demand year="2070">4800</demand>
+					<demand year="2075">4400</demand>
+					<demand year="2080">4000</demand>
+					<demand year="2085">3600</demand>
+					<demand year="2090">3200</demand>
+					<demand year="2095">2800</demand>
+					<demand year="2100">2400</demand>
+				</demand-source>
+			</CDR-final-demand>
+		</region>
+	</world>
+</scenario>

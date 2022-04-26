@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TEW_fertilizer_growth_limit.xml
+	 
+	 This file includes the experimental TEW_fertilizer
+	 technology in the growth constraint for CDR. It
+	 should be used whenever TEW_fertilizer.xml and
+	 CDR_growth_limit.xml (or a similar growth-limiting
+	 file) are included in the configuration. 
+	 
+	 See CDR_growth_limit.xml and the online GCAM-CDR
+	 documentation for further explanation. -->
+<scenario>
+   <world>
+		<global-technology-database>
+			<location-info sector-name="CDR_regional" subsector-name="CDR">
+			  <technology name="TEW_fertilizer">
+               <period year="1975">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="1990">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2005">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2010">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2015">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2020">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2025">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2030">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2035">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2040">
+			       <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2045">
+			      <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2050">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2055">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2060">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2065">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2070">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2075">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2080">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2085">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2090">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2095">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+               <period year="2100">
+				  <input-tax name="CDR-growth-limiter" />
+			   </period>
+            </technology>
+		 </location-info>
+	  </global-technology-database>
+   </world>
+</scenario>

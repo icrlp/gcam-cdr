@@ -1,0 +1,2663 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<!-- GCAM has difficulty solving periods in the '20s and '30s
+						 when using the TEW fertilizer technology.
+						 
+						 One thing that helps mitigate the problem is ensuring
+						 that the CDR subsector is relatively price-sensitive.
+						 The logit-exponent should generally be set to -6 or
+						 lower (i.e., larger absolute value) when using this file.
+						 
+						 It may also be helpful to increase the maximum number of
+						 model iterations by changing the max-model-cals in the solver
+						 configuration file (input/solution/cal_broden_config.xml)
+						 to 5000 or higher. -->
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>USA</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Africa_Eastern">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Africa_Eastern</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Africa_Northern">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Africa_Northern</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Africa_Southern">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Africa_Southern</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Africa_Western">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Africa_Western</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Australia_NZ">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Australia_NZ</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Brazil">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Brazil</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Canada">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Canada</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Central America and Caribbean">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Central America and Caribbean</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Central Asia">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Central Asia</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="China">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>China</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="EU-12">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>EU-12</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="EU-15">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>EU-15</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Europe_Eastern">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Europe_Eastern</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Europe_Non_EU">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Europe_Non_EU</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="European Free Trade Association">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>European Free Trade Association</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="India">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>India</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Indonesia">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Indonesia</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Japan">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Japan</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Mexico">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Mexico</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Middle East">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Middle East</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Pakistan">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Pakistan</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Russia">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Russia</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="South Africa">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>South Africa</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="South America_Northern">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>South America_Northern</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="South America_Southern">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>South America_Southern</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="South Asia">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>South Asia</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="South Korea">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>South Korea</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Southeast Asia">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Southeast Asia</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Taiwan">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Taiwan</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Argentina">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Argentina</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+		<region name="Colombia">
+            <supplysector name="CDR_regional">
+				<subsector name="CDR">
+					<absolute-cost-logit>
+					  <logit-exponent delete="1" fillout="1" year="1975">-6</logit-exponent>
+					</absolute-cost-logit>
+					<stub-technology delete="1" name="TEW" />
+					<stub-technology name="TEW_fertilizer"/>
+				</subsector>
+			</supplysector>
+			<supplysector delete="1" name="TEW" />
+			<renewresource delete="1" name="cropland_TEW"/>
+			<resource delete="1" name="cropland_TEW" />
+			<supplysector name="N fertilizer">
+                <subsector name="TEW">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-12</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight year="2020">0</share-weight>
+                    <share-weight year="2100">1</share-weight>
+					<interpolation-rule apply-to="share-weight" from-year="2020" to-year="2100">
+						<interpolation-function name="s-curve"/>
+                    </interpolation-rule>
+                    <stub-technology name="TEW"/>
+                </subsector>
+            </supplysector>
+			<policy-portfolio-standard name="fertilizer-credits">
+                <market>global</market>
+                <policyType>RES</policyType>
+                <price-unit>1975$/GJ</price-unit>
+                <output-unit>EJ</output-unit>
+                <constraint fillout="1" year="2020">1</constraint>
+				<min-price fillout="1" year="1975">0.001</min-price>
+            </policy-portfolio-standard>
+			<policy-portfolio-standard name="TEW_fertilizer">
+				<market>Colombia</market>
+				<policyType>RES</policyType>
+				<price-unit>1975$/kg</price-unit>
+				<output-unit>Mt</output-unit>
+				<min-price fillout="1" year="1975">0.01</min-price>
+				<max-price fillout="1" year="1975">2.0</max-price>
+				<constraint fillout="1" year="2020">0.0</constraint>
+			</policy-portfolio-standard>
+		</region>
+
+		<global-technology-database>
+			<location-info sector-name="N fertilizer" subsector-name="coal">
+                <technology name="coal">
+					<period year="2020">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2025">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2030">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2035">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2040">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2045">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2050">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2055">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2060">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2065">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2070">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2075">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2080">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2085">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2090">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2095">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2100">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+                </technology>
+                <technology name="coal CCS">
+					<period year="2020">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2025">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2030">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2035">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2040">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2045">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2050">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2055">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2060">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2065">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2070">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2075">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2080">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2085">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2090">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2095">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2100">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+                </technology>
+			</location-info>
+			<location-info sector-name="N fertilizer" subsector-name="gas">
+                <technology name="gas">
+					<period year="2020">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2025">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2030">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2035">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2040">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2045">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2050">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2055">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2060">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2065">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2070">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2075">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2080">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2085">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2090">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2095">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2100">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+                </technology>
+                <technology name="gas CCS">
+					<period year="2020">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2025">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2030">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2035">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2040">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2045">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2050">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2055">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2060">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2065">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2070">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2075">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2080">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2085">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2090">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2095">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2100">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+                </technology>
+			</location-info>
+			<location-info sector-name="N fertilizer" subsector-name="refined liquids">
+                <technology name="refined liquids">
+					<period year="2020">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2025">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2030">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2035">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2040">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2045">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2050">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2055">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2060">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2065">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2070">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2075">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2080">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2085">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2090">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2095">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+					<period year="2100">
+					  <res-secondary-output name="fertilizer-credits">
+						<output-ratio>1</output-ratio>
+					    <pMultiplier>0</pMultiplier>
+					  </res-secondary-output>
+					</period>
+                </technology>
+			</location-info>
+            <location-info sector-name="N fertilizer" subsector-name="TEW">
+                <technology name="TEW">
+                    <period year="1975">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+							<!-- coefficient from Kelland et al. (2020) experiment
+								 finding that 10kg/m2 loading of silicate achieved
+							     yield increase approx equal to what the 
+								 high-fertilizer treatment achieves in GCAM -->
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<!-- this coefficient controls the maximum
+								 market share of TEW fertilizer in each
+								 period. For a coefficient n, its market 
+								 share will equal or at least not exceed 
+								 1/n+1 --> 
+							<coefficient>99</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="1990">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>99</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="2005">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>99</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output> 
+                   </period>
+                    <period year="2010">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>99</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+					</period>
+                    <period year="2015">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>99</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="2020">
+                        <share-weight>0</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>99</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="2025">
+                        <share-weight>0.5</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>49</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="2030">
+                        <share-weight>0.6</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>32</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="2035">
+                        <share-weight>0.7</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>19</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="2040">
+                        <share-weight>0.8</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>14</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="2045">
+                        <share-weight>0.9</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>9</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="2050">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>5.5</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="2055">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>4</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="2060">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>3</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="2065">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>2</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="2070">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>2</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="2075">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>2</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="2080">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>2</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="2085">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>2</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="2090">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>2</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="2095">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>2</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                    <period year="2100">
+                        <share-weight>1</share-weight>
+                        <CO2 name="CO2_CDR"/>
+                        <minicam-energy-input name="silicate">
+                            <coefficient>10.0</coefficient>
+                        </minicam-energy-input>
+						<minicam-energy-input name="elect_td_ind">
+							<coefficient>0.005866667</coefficient>
+						</minicam-energy-input>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0.9108</input-cost>
+                        </minicam-non-energy-input>
+						<minicam-energy-input name="atmospheric_CO2">
+							<coefficient>10</coefficient>
+						</minicam-energy-input>
+						<minicam-energy-input name="fertilizer-credits">
+							<coefficient>2</coefficient>
+						</minicam-energy-input>
+						<fractional-secondary-output name="TEW_fertilizer">
+							<output-ratio>10</output-ratio>
+							<fraction-produced price="0.005">0.0</fraction-produced>
+							<fraction-produced price="0.125">1.0</fraction-produced>
+						</fractional-secondary-output>
+                    </period>
+                </technology>
+            </location-info>
+
+			<location-info sector-name="CDR_regional" subsector-name="CDR">
+                <technology name="TEW_fertilizer">
+                    <period year="1975">
+						<share-weight>0</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="1990">
+						<share-weight>0</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2005">
+						<share-weight>0</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2010">
+						<share-weight>0</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2015">
+						<share-weight>0</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2020">
+						<share-weight>0</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2025">
+						<share-weight>1</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2030">
+						<share-weight>1</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2035">
+						<share-weight>1</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2040">
+						<share-weight>1</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2045">
+						<share-weight>1</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2050">
+						<share-weight>1</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2055">
+						<share-weight>1</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2060">
+						<share-weight>1</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2065">
+						<share-weight>1</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2070">
+						<share-weight>1</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2075">
+						<share-weight>1</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2080">
+						<share-weight>1</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2085">
+						<share-weight>1</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2090">
+						<share-weight>1</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2095">
+						<share-weight>1</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                    <period year="2100">
+						<share-weight>1</share-weight>
+						<minicam-energy-input name="TEW_fertilizer">
+							<coefficient>1.0</coefficient>
+						</minicam-energy-input>
+					</period>
+                </technology>
+			</location-info>
+		</global-technology-database>
+	</world>
+</scenario>

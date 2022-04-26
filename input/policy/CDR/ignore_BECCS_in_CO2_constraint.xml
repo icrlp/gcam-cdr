@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+	<global-technology-database>
+			<location-info sector-name="biorefining" subsector-name="biomass liquids">
+				<technology name="cellulosic ethanol CCS level 1">
+					<period year="2020">
+						<secondary-output name="CO2">
+							<output-ratio>-1.890876</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2025">
+						<secondary-output name="CO2">
+							<output-ratio>-1.87446675</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2030">
+						<secondary-output name="CO2">
+							<output-ratio>-1.8580575</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2035">
+						<secondary-output name="CO2">
+							<output-ratio>-1.84164825</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2040">
+						<secondary-output name="CO2">
+							<output-ratio>-1.825239</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2045">
+						<secondary-output name="CO2">
+							<output-ratio>-1.80882975</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2050">
+						<secondary-output name="CO2">
+							<output-ratio>-1.7924205</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2055">
+						<secondary-output name="CO2">
+							<output-ratio>-1.77601125</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2060">
+						<secondary-output name="CO2">
+							<output-ratio>-1.759602</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2065">
+						<secondary-output name="CO2">
+							<output-ratio>-1.74319275</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2070">
+						<secondary-output name="CO2">
+							<output-ratio>-1.7267835</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2075">
+						<secondary-output name="CO2">
+							<output-ratio>-1.71037425</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2080">
+						<secondary-output name="CO2">
+							<output-ratio>-1.693965</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2085">
+						<secondary-output name="CO2">
+							<output-ratio>-1.67755575</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2090">
+						<secondary-output name="CO2">
+							<output-ratio>-1.6611465</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2095">
+						<secondary-output name="CO2">
+							<output-ratio>-1.64473725</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2100">
+						<secondary-output name="CO2">
+							<output-ratio>-1.628328</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+				</technology>
+				<technology name="cellulosic ethanol CCS level 2">
+					<period year="2020">
+						<secondary-output name="CO2">
+							<output-ratio>-6.92478</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2025">
+						<secondary-output name="CO2">
+							<output-ratio>-6.86453625</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2030">
+						<secondary-output name="CO2">
+							<output-ratio>-6.8042925</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2035">
+						<secondary-output name="CO2">
+							<output-ratio>-6.74404875</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2040">
+						<secondary-output name="CO2">
+							<output-ratio>-6.683805</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2045">
+						<secondary-output name="CO2">
+							<output-ratio>-6.62356125</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2050">
+						<secondary-output name="CO2">
+							<output-ratio>-6.5633175</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2055">
+						<secondary-output name="CO2">
+							<output-ratio>-6.50307375</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2060">
+						<secondary-output name="CO2">
+							<output-ratio>-6.44283</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2065">
+						<secondary-output name="CO2">
+							<output-ratio>-6.38258625</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2070">
+						<secondary-output name="CO2">
+							<output-ratio>-6.3223425</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2075">
+						<secondary-output name="CO2">
+							<output-ratio>-6.26209875</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2080">
+						<secondary-output name="CO2">
+							<output-ratio>-6.201855</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2085">
+						<secondary-output name="CO2">
+							<output-ratio>-6.14161125</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2090">
+						<secondary-output name="CO2">
+							<output-ratio>-6.0813675</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2095">
+						<secondary-output name="CO2">
+							<output-ratio>-6.02112375</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2100">
+						<secondary-output name="CO2">
+							<output-ratio>-5.96088</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+				</technology>
+				<technology name="FT biofuels CCS level 1">
+					<period year="2020">
+						<secondary-output name="CO2">
+							<output-ratio>-5.684732</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2025">
+						<secondary-output name="CO2">
+							<output-ratio>-5.6446545</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2030">
+						<secondary-output name="CO2">
+							<output-ratio>-5.604577</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2035">
+						<secondary-output name="CO2">
+							<output-ratio>-5.5644995</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2040">
+						<secondary-output name="CO2">
+							<output-ratio>-5.524422</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2045">
+						<secondary-output name="CO2">
+							<output-ratio>-5.4843445</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2050">
+						<secondary-output name="CO2">
+							<output-ratio>-5.444267</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2055">
+						<secondary-output name="CO2">
+							<output-ratio>-5.4041895</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2060">
+						<secondary-output name="CO2">
+							<output-ratio>-5.364112</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2065">
+						<secondary-output name="CO2">
+							<output-ratio>-5.3240345</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2070">
+						<secondary-output name="CO2">
+							<output-ratio>-5.283957</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2075">
+						<secondary-output name="CO2">
+							<output-ratio>-5.2438795</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2080">
+						<secondary-output name="CO2">
+							<output-ratio>-5.203802</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2085">
+						<secondary-output name="CO2">
+							<output-ratio>-5.1637245</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2090">
+						<secondary-output name="CO2">
+							<output-ratio>-5.123647</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2095">
+						<secondary-output name="CO2">
+							<output-ratio>-5.0835695</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2100">
+						<secondary-output name="CO2">
+							<output-ratio>-5.043492</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+				</technology>
+				<technology name="FT biofuels CCS level 2">
+					<period year="2020">
+						<secondary-output name="CO2">
+							<output-ratio>-6.60042</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2025">
+						<secondary-output name="CO2">
+							<output-ratio>-6.553755</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2030">
+						<secondary-output name="CO2">
+							<output-ratio>-6.50709</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2035">
+						<secondary-output name="CO2">
+							<output-ratio>-6.460425</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2040">
+						<secondary-output name="CO2">
+							<output-ratio>-6.41376</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2045">
+						<secondary-output name="CO2">
+							<output-ratio>-6.367095</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2050">
+						<secondary-output name="CO2">
+							<output-ratio>-6.32043</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2055">
+						<secondary-output name="CO2">
+							<output-ratio>-6.273765</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2060">
+						<secondary-output name="CO2">
+							<output-ratio>-6.2271</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2065">
+						<secondary-output name="CO2">
+							<output-ratio>-6.180435</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2070">
+						<secondary-output name="CO2">
+							<output-ratio>-6.13377</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2075">
+						<secondary-output name="CO2">
+							<output-ratio>-6.087105</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2080">
+						<secondary-output name="CO2">
+							<output-ratio>-6.04044</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2085">
+						<secondary-output name="CO2">
+							<output-ratio>-5.993775</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2090">
+						<secondary-output name="CO2">
+							<output-ratio>-5.94711</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2095">
+						<secondary-output name="CO2">
+							<output-ratio>-5.900445</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+					<period year="2100">
+						<secondary-output name="CO2">
+							<output-ratio>-5.85378</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period> 
+				</technology>
+			</location-info>
+			<location-info sector-name="electricity" subsector-name="biomass">
+                <technology name="biomass (IGCC CCS)">
+                    <period year="2020">
+						<secondary-output name="CO2">
+							<output-ratio>-61.23848</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2025">
+						<secondary-output name="CO2">
+							<output-ratio>-61.23848</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2030">
+						<secondary-output name="CO2">
+							<output-ratio>-57.16756</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2035">
+						<secondary-output name="CO2">
+							<output-ratio>-54.67212</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2040">
+						<secondary-output name="CO2">
+							<output-ratio>-52.84603</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2045">
+						<secondary-output name="CO2">
+							<output-ratio>-50.85421</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2050">
+						<secondary-output name="CO2">
+							<output-ratio>-49.80535</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2055">
+						<secondary-output name="CO2">
+							<output-ratio>-48.50714</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2060">
+						<secondary-output name="CO2">
+							<output-ratio>-48.02793</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2065">
+						<secondary-output name="CO2">
+							<output-ratio>-47.56824</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2070">
+						<secondary-output name="CO2">
+							<output-ratio>-46.82334</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2075">
+						<secondary-output name="CO2">
+							<output-ratio>-46.60786</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2080">
+						<secondary-output name="CO2">
+							<output-ratio>-45.999994</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2085">
+						<secondary-output name="CO2">
+							<output-ratio>-46.00005</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2090">
+						<secondary-output name="CO2">
+							<output-ratio>-46.00001</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2095">
+						<secondary-output name="CO2">
+							<output-ratio>-45.61171</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2100">
+						<secondary-output name="CO2">
+							<output-ratio>-45.71129</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                </technology>
+                <technology name="biomass (conv CCS)">
+                    <period year="2020">
+						<secondary-output name="CO2">
+							<output-ratio>-76.96497</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2025">
+						<secondary-output name="CO2">
+							<output-ratio>-76.96497</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2030">
+						<secondary-output name="CO2">
+							<output-ratio>-70.64289</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2035">
+						<secondary-output name="CO2">
+							<output-ratio>-66.69993</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2040">
+						<secondary-output name="CO2">
+							<output-ratio>-64.05069</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2045">
+						<secondary-output name="CO2">
+							<output-ratio>-61.33327</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2050">
+						<secondary-output name="CO2">
+							<output-ratio>-59.85387</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2055">
+						<secondary-output name="CO2">
+							<output-ratio>-57.98864</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2060">
+						<secondary-output name="CO2">
+							<output-ratio>-57.1823</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2065">
+						<secondary-output name="CO2">
+							<output-ratio>-56.56751</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2070">
+						<secondary-output name="CO2">
+							<output-ratio>-55.51724</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2075">
+						<secondary-output name="CO2">
+							<output-ratio>-55.24813</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2080">
+						<secondary-output name="CO2">
+							<output-ratio>-54.28932</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2085">
+						<secondary-output name="CO2">
+							<output-ratio>-54.18556</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2090">
+						<secondary-output name="CO2">
+							<output-ratio>-53.64765</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2095">
+						<secondary-output name="CO2">
+							<output-ratio>-53.64765</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                    <period year="2100">
+						<secondary-output name="CO2">
+							<output-ratio>-53.68545</output-ratio>
+							<pMultiplier>0</pMultiplier>
+						</secondary-output>
+					</period>
+                </technology>
+			</location-info>
+			<location-info sector-name="elec_gas (CC CCS)" subsector-name="biogas (CC CCS)">
+				<technology name="biogas (CC CCS) (once through)">
+                  <period year="2020">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-24.04382</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2025">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-22.91182</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2030">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-21.8853</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2035">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-21.33679</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2040">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-20.93132</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2045">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-20.4183</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2050">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-20.2208</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2055">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.87107</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2060">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.78328</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2065">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.72824</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2070">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.51964</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2075">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.52765</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2080">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.35407</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2085">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.42059</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2090">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.48613</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2095">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.34493</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2100">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.43804</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+				</technology>
+				<technology name="biogas (CC CCS) (sewater)">
+                  <period year="2020">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-24.04382</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2025">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-22.91182</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2030">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-21.8853</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2035">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-21.33679</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2040">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-20.93132</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2045">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-20.4183</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2050">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-20.2208</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2055">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.87107</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2060">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.78328</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2065">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.72824</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2070">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.51964</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2075">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.52765</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2080">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.35407</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2085">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.42059</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2090">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.48613</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2095">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.34493</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2100">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.43804</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+				</technology>
+				<technology name="biogas (CC CCS) (recirculating)">
+                  <period year="2020">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-24.04382</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2025">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-22.91182</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2030">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-21.8853</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2035">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-21.33679</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2040">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-20.93132</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2045">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-20.4183</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2050">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-20.2208</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2055">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.87107</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2060">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.78328</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2065">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.72824</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2070">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.51964</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2075">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.52765</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2080">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.35407</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2085">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.42059</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2090">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.48613</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2095">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.34493</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2100">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.43804</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+				</technology>
+				<technology name="biogas (CC CCS) (dry cooling)">
+                  <period year="2020">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-24.04382</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2025">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-22.91182</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2030">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-21.8853</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2035">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-21.33679</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2040">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-20.93132</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2045">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-20.4183</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2050">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-20.2208</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2055">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.87107</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2060">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.78328</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2065">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.72824</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2070">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.51964</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2075">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.52765</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2080">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.35407</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2085">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.42059</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2090">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.48613</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2095">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.34493</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2100">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-19.43804</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+				</technology>
+			</location-info>
+			<location-info sector-name="elec_refined liquids (CC CCS)" subsector-name="refined bioliquids (CC CCS)">
+				<technology name="refined bioliquids (CC CCS) (dry cooling)">
+                  <period year="2020">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-35.67452</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2025">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-33.37822</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2030">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-31.44776</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2035">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-30.34164</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2040">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-29.53425</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2045">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-28.65116</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2050">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-28.22654</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2055">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-27.64501</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2060">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-27.47664</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2065">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-27.35583</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2070">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.98336</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2075">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.99401</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2080">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.71407</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2085">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.76652</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2090">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.85714</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2095">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.66281</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2100">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.75287</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+				</technology>
+				<technology name="refined bioliquids (CC CCS) (recirculating)">
+                  <period year="2020">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-35.67452</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2025">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-33.37822</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2030">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-31.44776</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2035">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-30.34164</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2040">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-29.53425</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2045">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-28.65116</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2050">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-28.22654</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2055">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-27.64501</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2060">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-27.47664</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2065">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-27.35583</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2070">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.98336</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2075">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.99401</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2080">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.71407</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2085">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.76652</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2090">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.85714</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2095">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.66281</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2100">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.75287</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+				</technology>
+				<technology name="refined bioliquids (CC CCS) (seawater)">
+                  <period year="2020">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-35.67452</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2025">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-33.37822</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2030">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-31.44776</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2035">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-30.34164</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2040">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-29.53425</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2045">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-28.65116</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2050">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-28.22654</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2055">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-27.64501</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2060">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-27.47664</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2065">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-27.35583</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2070">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.98336</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2075">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.99401</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2080">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.71407</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2085">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.76652</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2090">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.85714</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2095">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.66281</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+                  <period year="2100">
+                     <secondary-output name="CO2">
+                        	<output-ratio>-26.75287</output-ratio>
+							<pMultiplier>0</pMultiplier>
+                     </secondary-output>
+                  </period>
+				</technology>			
+			</location-info>
+		</global-technology-database>
+	</world>
+</scenario>
