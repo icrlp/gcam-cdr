@@ -114,7 +114,7 @@
 		<!-- <Value name="ignore_beccs_in_constraint">../input/policy/CDR/ignore_BECCS_in_CO2_constraint.xml</Value> -->
 
 		<!-- CDR demand: uncomment and adjust a policy to add CDR demand -->
-		<!-- <Value name="CDR_demand">../input/policy/CDR/CDR_exo_2GtC.xml</Value> -->
+		<Value name="CDR_demand">../input/policy/CDR/CDR_exo_2GtC.xml</Value>
 		<!-- <Value name="CDR_demand">../input/policy/CDR/CDR_elastic_demand.xml</Value> -->
 		<!-- <Value name="CDR_demand">../input/policy/CDR/CDR_offset_CO2.xml</Value> -->
 		<!-- <Value name="CDR_accumulate_demand">../input/policy/CDR_accumulate_demand_10pc.xml</Value> -->
