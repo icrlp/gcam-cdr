@@ -1,4 +1,4 @@
-# GGCAM-CDR: A Variant of the Global Change Analysis Model-CDR
+# GCAM-CDR: A Variant of the Global Change Analysis Model
 
 This software, GCAM-CDR, is a variant of the Global Change Analysis Model (GCAM). 
 GCAM is an integrated assessment model for studying climate policy. GCAM-CDR 
