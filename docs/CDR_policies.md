@@ -37,7 +37,7 @@ To configure CDR demand in a particular region, users must include a `CDR-final-
 </region>
 ``` 
 
-Demand can also be specified for each period, as shown below. Note that if the purpose of specifying demand for each period is to limit the growth of CDR, another option is to set demand to the maximum value in all periods and [use a growth-limiting file to constrain growth](./configuring_GCAM-CDR.xml#Controlling-the-Growth-of-the-CDR-Sector).
+Demand can also be specified for each period, as shown below. Note that if the purpose of specifying demand for each period is to limit the growth of CDR, another option is to set demand to the maximum value in all periods and [use a growth-limiting file to constrain growth](./configuring_GCAM-CDR.md#Controlling-the-Growth-of-the-CDR-Sector).
 ```xml
 <region name="USA">
   <CDR-final-demand name="CDR">	        
@@ -250,7 +250,7 @@ With that caveat in mind, CDR can stand in various relationships to emissions po
 ### Setting separate targets for abatement and CDR
 With the default configuration in GCAM-CDR, a constraint on CO<sub>2</sub> will not count negative emissions from CDR toward the satisfaction of that constraint. For example, if a user specifies a global CO<sub>2</sub> constraint of 500 MtC in 2050, and CO<sub>2</sub> emissions are at 1,000 MtC in 2050, the model will not recognize the constraint as satisfied _even if there are at least 500 MtC removed via DAC, OEW, and TEW in 2050_.[^3] 
 
-This makes it easy to set separate targets for emissions abatement and CDR, as some experts recommend to policymakers ([McLaren et al. 2019](https://www.frontiersin.org/articles/10.3389/fclim.2019.00004/full); [Lee et al. 2021](https://iopscience.iop.org/article/10.1088/1748-9326/ac1970/meta#references)).[^4] Simply set a carbon/GHG constraint in the normal way, and then set demand for CDR separately, and the two policies will need to be satisfied independently. For example, setting a constraint in which CO<sub>2</sub> declines linearly from a peak in 2025 to 500 MtC in 2050, plus [a CDR policy that calls for 500 MtC of CDR in every period](./CDR_policies#configuring-exogenous-demand-sources), will result in a net-zero policy with separate targets for emissions abatement and CDR. The following code snippet illustrates how to do this:
+This makes it easy to set separate targets for emissions abatement and CDR, as some experts recommend to policymakers ([McLaren et al. 2019](https://www.frontiersin.org/articles/10.3389/fclim.2019.00004/full); [Lee et al. 2021](https://iopscience.iop.org/article/10.1088/1748-9326/ac1970/meta#references)).[^4] Simply set a carbon/GHG constraint in the normal way, and then set demand for CDR separately, and the two policies will need to be satisfied independently. For example, setting a constraint in which CO<sub>2</sub> declines linearly from a peak in 2025 to 500 MtC in 2050, plus [a CDR policy that calls for 500 MtC of CDR in every period](#configuring-exogenous-demand-sources), will result in a net-zero policy with separate targets for emissions abatement and CDR. The following code snippet illustrates how to do this:
 
 ```xml
 <region name="USA">

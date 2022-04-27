@@ -4,7 +4,7 @@ GCAM-CDR is a variant of the [Global Change Analysis Model (GCAM)](http://www.gl
 
 This documentation covers the main changes to GCAM 5.4 that are implemented in GCAM-CDR 1.0.  For documentation of all other features of GCAM 5.4, see JGCRI's documentation of GCAM itself. (Throughout this documentation, "GCAM 5.4" refers to JGCRI's official release of the model.)
 
-_Documentation last updated April 1, 2022_
+_Documentation last updated April 27, 2022_
 
 ## Summary of new elements
 
@@ -22,7 +22,7 @@ If you want to jump right in, read the [Quick Start Guide for GCAM-CDR](./GCAM-C
 
 If you want to learn about GCAM-CDR in more detail, this documentation covers the following topics:
 
-- **[New CDR technologies](./CDR_technologies.d).** An explanation of the various CDR technologies in GCAM-CDR.
+- **[New CDR technologies](./CDR_technologies.md).** An explanation of the various CDR technologies in GCAM-CDR.
 - **[A new CDR sector](./CDR_supply_sector.md).** An overview of the CDR supply sector.
 - **[CDR policies](./CDR_policies.md).** Detailed explanation of the various CDR policies  available in GCAM-CDR, especially policies for [configuring demand for CDR](./CDR_policies.md#configuring-demand-for-CDR). For a quicker introduction to these topics, see the [Quick Start Guide](./GCAM-CDR_quick_start_guide.md#CDR-policy-files).
 - **[BECCS integration](./BECCS_integration.md).** An overview of GCAM-CDR's method for integrating bioenergy with CCS (BECCS) technologies into the CDR sector.
