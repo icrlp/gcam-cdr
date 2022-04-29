@@ -27,3 +27,4 @@ If you want to learn about GCAM-CDR in more detail, this documentation covers th
 - **[CDR policies](./CDR_policies.md).** Detailed explanation of the various CDR policies  available in GCAM-CDR, especially policies for [configuring demand for CDR](./CDR_policies.md#configuring-demand-for-CDR). For a quicker introduction to these topics, see the [Quick Start Guide](./GCAM-CDR_quick_start_guide.md#CDR-policy-files).
 - **[BECCS integration](./BECCS_integration.md).** An overview of GCAM-CDR's method for integrating bioenergy with CCS (BECCS) technologies into the CDR sector.
 - **[Separation of biofuels from fossil fuels](bioenergy_separation.md).** A detailed explanation of the "bioseparation" files that partially disentangle liquid and gaseous biofuels from fossil fuels.
+- **Summary of source code modifications.** An explanation of the ways in which [the source code for GCAM-CDR ](../cvs/objects/) differs from the source code for GCAM 5.4.
