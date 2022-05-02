@@ -157,7 +157,7 @@ int main( int argc, char *argv[] ) {
     mainLog << "Some features in this version (GCAM-CDR) were created or modified by the " << endl;
     mainLog << "Institute for Carbon Removal Law and Policy at American University." << endl << endl;
     
-    mainLog << "Running GCAM-CDR version 1.0 based on GCAM " << __ObjECTS_VER__ << endl << endl;
+    mainLog << "Running GCAM-CDR version 1.0.1 based on GCAM " << __ObjECTS_VER__ << endl << endl;
 
     // Parse configuration file.
     mainLog.setLevel( ILogger::NOTICE );
