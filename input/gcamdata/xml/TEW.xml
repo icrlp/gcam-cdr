@@ -683,10 +683,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -699,10 +699,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -715,10 +715,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -731,10 +731,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -747,10 +747,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -772,10 +772,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -797,10 +797,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -822,10 +822,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -847,10 +847,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -872,10 +872,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -897,10 +897,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -922,10 +922,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -947,10 +947,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -972,10 +972,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -997,10 +997,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -1022,10 +1022,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -1047,10 +1047,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -1072,10 +1072,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -1097,10 +1097,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -1122,10 +1122,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -1147,10 +1147,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
@@ -1172,10 +1172,10 @@
                      <coefficient>0.005866667</coefficient>
                   </minicam-energy-input>
                   <minicam-energy-input name="cropland_TEW">
-					<coefficient>2</coefficient>
-				</minicam-energy-input>
-				<minicam-energy-input name="silicate">
-				   <coefficient>1</coefficient>
+					<coefficient>24.44</coefficient>
+				  </minicam-energy-input>
+				  <minicam-energy-input name="silicate">
+				   <coefficient>12.22</coefficient>
                   </minicam-energy-input>
                   <minicam-non-energy-input name="non-energy">
                      <input-cost>0</input-cost>
